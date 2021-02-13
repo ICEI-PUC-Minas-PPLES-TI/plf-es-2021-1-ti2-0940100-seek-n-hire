@@ -7,6 +7,7 @@ Nosso projeto ajudará dois tipos de publico, pessoas que desejam procurar servi
 * Andre Cota Guimarães
 * Anna Laura Reis Dornelas
 * Vinicius Levi Viana de Oliveira
+* Renan Cleyson Fagundes Pereira
 * Frederico Martins Rodrigues
 
 ## Professor
