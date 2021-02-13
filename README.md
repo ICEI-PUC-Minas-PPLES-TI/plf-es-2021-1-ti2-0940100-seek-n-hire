@@ -5,8 +5,8 @@ Nosso projeto ajudará dois tipos de publico, pessoas que desejam procurar servi
 ## Integrantes
 
 * Andre Cota Guimarães
-* Nome completo do aluno 2
-* Nome completo do aluno 3
+* Anna Laura Reis Dornelas
+* Vinicius Levi Viana
 * Nome completo do aluno 4
 
 ## Professor
