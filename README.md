@@ -1,17 +1,19 @@
-# Nome do projeto
+# Seek'n Hire
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+Nosso projeto ajudará dois tipos de publico, pessoas que desejam procurar serviços especificos e quem deseja oferecer seu proprio serviço.
 
 ## Integrantes
 
-* Nome completo do aluno 1
+* Andre Cota Guimarães
 * Nome completo do aluno 2
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 
 ## Professor
 
-* Nome completo do professor
+* Hugo Basto de Paula
+* Joyce Christina de Paiva
+* Claudiney Vander Ramos
 
 ## Instruções de utilização
 
