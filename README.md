@@ -12,7 +12,7 @@ Nosso projeto ajudará dois tipos de publico, pessoas que desejam procurar servi
 
 ## Professor
 
-* Hugo Basto de Paula
+* Hugo Bastos de Paula
 * Joyce Christina de Paiva
 * Claudiney Vander Ramos
 
