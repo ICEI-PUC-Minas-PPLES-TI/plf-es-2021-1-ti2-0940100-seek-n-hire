@@ -6,15 +6,15 @@ Nosso projeto ajudará dois tipos de publico, pessoas que desejam procurar servi
 
 * Andre Cota Guimarães
 * Anna Laura Reis Dornelas
-* Vinicius Levi Viana de Oliveira
-* Renan Cleyson Fagundes Pereira
 * Frederico Martins Rodrigues
+* Renan Cleyson Fagundes Pereira
+* Vinicius Levi Viana de Oliveira
 
-## Professor
+## Professores
 
+* Claudiney Vander Ramos
 * Hugo Bastos de Paula
 * Joyce Christina de Paiva
-* Claudiney Vander Ramos
 
 ## Instruções de utilização
 
