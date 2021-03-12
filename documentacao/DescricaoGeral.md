@@ -1,0 +1,3 @@
+## 3.2 Descrição geral da proposta
+
+Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), em 2019 o desemprego atingiu cerca de 11,9% da população brasileira, em 2020 essa situação piorou, com o desemprego chegando a 13,5% da população, isso equivale a 13,4 milhões de pessoas. Com isso, percebe-se que existe a necessidade de oportunidade de melhorar a renda. De acordo com a necessidade identificada, a proposta principal da equipe é permitir pessoas que ofereçam variados serviços se disponibilizem à realização de atividades em uma única plataforma, além disso, têm-se a proposta de permitir pessoas que necessitem dos serviços busquem-os nessa mesma plataforma.
