@@ -1,4 +1,4 @@
-# Seek'n Hire
+# Seek n' Hire
 
 Nosso projeto ajudará dois tipos de publico, pessoas que desejam procurar serviços especificos e quem deseja oferecer seu proprio serviço.
 
