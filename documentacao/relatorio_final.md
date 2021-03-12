@@ -40,19 +40,19 @@ para tal.
 
     1.3 Objetivo geral
 
-O aluno deve escrever um pequeno parágrafo ou frase com o **objetivo geral** do trabalho. 
-O objetivo deve ser bem direto, específico e definido com verbos de ação (elaborar, propor, ava-liar, comparar etc.).
+O objetivo com nosso trabalho é facilitar a busca por serviços no geral, tanto para os que procuram fornecer quanto aos que necessitam do serviço.
 
         1.3.1 Objetivos específicos
 
-Apresente também alguns (pelo menos 2) **objetivos específicos** dependendo de onde você vai querer 
-concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Oferecer um sistema que gerencie conexões entre pessoas prestadores ou que desejam contratar serviços, baseando-se na região em que elas se encontram. 
+A aplicação fornecerá tambem um ranqueamento que informará ao usuário se a pessoa em contato presta um bom serviço ou se é um bom contratante.
+Terá um calendário com as possibilidades de agendamento pelo próprio sistema.   
 
     1.4 Justificativas
 
-Mostre também as **justificativas** para o 
-desenvolvimento do seu trabalho e, caso deseje, desta-que alguma contribuição do trabalho.
-
+Estamos com o intúito de desenvolver o projeto, pois apartir de perguntas levantadas em nosso questionário, boa parte das pessoas que precisam contratar algum
+serviço específico tem somente como principais fontes: redes sociais, buscadores(como Goole, Bing etc) e indicações de conhecidos.
+Ao desenvolver o projeto facilitaremos que as pessoas achem quem está a procura, possibilitando até mesmo achar serviços com uma maior qualidade e menor preço.
 
 ## 2. Participantes do processo
 
