@@ -1,11 +1,14 @@
-# TITULO DO PROJETO
+# Seek N' Hire
 
+**Andre Cota Guimarães, 1202002@sga.pucminas.br**
 
-**Nome completo do Aluno 1, email do aluno 1**
+**Anna Laura Reis Dornelas, annalaura.rdg@gmail.com**
 
-**Nome completo do Aluno 2, email do aluno 2**
+**Frederico Martins Rodrigues, fredmrodrigues@outlook.com**
 
-**Nome completo do Aluno 3, email do aluno 3**
+**Renan Cleyson Fagundes Pereira, rcfpereira@sga.pucminas.br**
+
+**Vinicius Levi Viana de Oliveira, vinicius.levi@sga.pucminas.br**
 
 ---
 
@@ -15,28 +18,30 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
+_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final,
 mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 ---
 
-
 ## 1. Introdução
-
-A introdução deve apresentar de dois ou quatro parágrafos de contextualização do trabalho. 
 
     1.1 Contextualização
 
-Na **contextualização**, o aluno deve dizer do que se trata o trabalho, em que área ou contexto se insere. 
-A **contextualização** deve ser desenvolvida de algo mais genérico para algo mais específico. 
-A citação de pesquisas quantitativas é bem aceita aqui (corretamente referenciadas).
+A prestação de serviços de maneira autônoma aumentou com o passar dos anos. De acordo com o IBGE, em 2019, mais de 24 milhões de pessoas trabalhavam por conta propria, o que possibilitou uma redução na taxa de desemprego do país.
+
+Considerando a pandemia da COVID-19, pode-se dizer que a taxa de trabalhadores autônomos tende a aumentar, assim como tende a aumentar o uso do meio digital, no qual pode ser utilizado como um novo meio para conectar o prestador ao empregador.
+
+Assim, a necessidade de integrar o meio digital com a prestação de serviços se torna cada vez mais necessaria para se atingir um cenário melhor.
 
     1.2 Problema
 
-Em seguida o aluno deve caminhar a contextualização para descrever o **problema** que o artigo trata. 
-O **problema** pode ser algo vivido em uma empresa específica. Neste caso, o aluno deve rapidamente apresentar 
-o cenário de problema da empresa. A empresa só deve ser citada explicitamente se o aluno tiver autorização 
-para tal.
+Com a tendência da taxa de desemprego do país aumentar, a informalidade tende a ser a saída para várias pessoas. Dessa forma, redes sociais estão se tornando cada vez mais comuns para a divulgação de prestações de serviços, mas essas plataformas são limitadas por conta da função do aplicativo nunca ser a prestação de serviço.
+
+Nesse sentido, as pessoas apresentam mais dificuldade em começar a prestar algum serviço, assim como pessoas a procura desses serviços apresentam dificuldade em encontra-los. Além disso, é necessario confiança entre contratante e prestador para o pagamento do serviço, o que pode dificultar ainda mais que ocorra a prestação.
+
+Outro problema enfrentado por prestadores é a necessidade de organizar a sua agenda de serviços, o que pode lhe tomar tempo e, em caso de engano, o cliente e prestador sairiam penalizados.
+
+Portanto, o prestador apresenta diversos problemas relacionado ao processo de atendimento, divulgação e pagamento de serviços, assim como clientes apresentam problemas em encontrar prestadores. Assim, os meios utilizados atualmente se mostram obsoletos para solucionar os problemas que prestadores de serviço e seus clientes podem ter.
 
     1.3 Objetivo geral
 
