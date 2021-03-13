@@ -66,8 +66,7 @@ Apresente aqui os diferentes perfis dos Stakeholders (participantes do processo)
 ## 3. Modelagem do processo de negócio
 
 ## 3.1. Análise da situação atual
-
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, _ **apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente** _, mesmo que não se utilize tecnologia computacional.
+Atualmente temos pessoas que necessitam de serviços diversos, para que elas procurem este serviço é necessário procurar indicação de outras pessoas ou em redes sociais, como Facebook ou Whatsapp. O problema disso é que são métodos que não facilitam a divulgação ou a contratação do serviço, podem não ser seguros e não são eficientes. Nosso sistema é um lugar onde uma pessoa que presta serviço vai deixar seu serviço online e o solicitante poderá solicitar esse serviço. A segurança do usuário virá em primeiro lugar, a avaliação do prestador do serviço e do solicitante serão necessárias para esse controle, também é possível agendar a solicitação, fazendo com que o usuário tenha a certeza de que o horário que ele deseja será cumprido e o prestador poderá fazer os serviços de acordo com sua agenda.
 
 ## 3.2. Descrição Geral da proposta
 
