@@ -61,7 +61,27 @@ Ao desenvolver o projeto facilitaremos que as pessoas achem quem está a procura
 
 ## 2. Participantes do processo
 
-Apresente aqui os diferentes perfis dos Stakeholders (participantes do processo) chave do sistema. Diversas são as informações que podem ser relevantes para a definição dos perfis dos usuários, tais como idade, gênero, aspectos culturais, nível de educação, entre outros. A pesquisa de mercado pode ser uma ferramenta poderosa para se identificar e caracterizar os perfis de usuários.
+Foi feita uma análise através de um questionário virtual (disponível no link https://pt.surveymonkey.com/r/TI-Seekn-Hire) que definiu os seguintes perfis de usuário:
+•    Pessoas interessadas em contratar um serviço informal de maneira objetiva, tendo como prioridade a segurança, agilidade e qualidade do serviço;
+•    Pessoas interessadas em oferecer um ou mais serviços informais com o intuito de atingir uma quantidade abrangente de potenciais clientes.
+
+Os perfis foram traçados em diferentes faixas etárias, ambos os sexos (masculino e feminino) e com objetivos específicos, filtrados e analisados pelo questionário.
+
+Para respondentes que utilizaram o questionário se baseando em usuários que necessitam contratar algum serviço, destacam-se as respostas pela forma mais usual de busca por serviços, relatividade das avaliações pela qualidade de prestação dos serviços e a segurança para se efetuar o pagamento pelos serviços prestados.
+A busca por serviços é geralmente realizada através de indicações de familiares e amigos. A busca no Google foi a modalidade que ocupou o segundo lugar no ranking, seguida por busca em empresas especializadas e grupos de redes sociais, respectivamente.
+De forma unânime, os respondentes consideram que um profissional bem-avalidado/indicado é relevante para a decisão de contratação.
+Em relação à segurança para efetuar o pagamento, a maioria dos respondentes considera mais seguro que o pagamento seja realizado após o serviço ser concluído.
+
+Em relação aos respondentes que utilizaram o questionário se baseando em usuários que necessitam oferecer algum serviço, destacam-se as respostas pelas modalidades de serviços a serem oferecidas, a modalidade de divulgação dos serviços e a segurança para se receber por algum serviço prestado.
+Os serviços em destaque oferecidos com base nas respostas são:
+•    Serviços de babá e formatação de computadores, representando 28,5% das respostas;
+•    Aulas particulares;
+•    Serviços de cuidador(a) de animais;
+•    Serviços médicos.
+O meio mais comum de divulgação de serviços é através das redes sociais, seguido por divulgação direta em grupos de amigos/familiares e distribuição de panfletos, respectivamente. 16% dos respondentes não fazem divulgação dos serviços que prestam.
+Em relação à segurança para se receber por algum serviço prestado, a maioria dos respondentes considera receber após o serviço ser finalizado, justificando passar mais credibilidade para quem contrata o serviço.
+
+Também com base no questionário, foi identificado o perfil de Stakeholders que oferecem serviços de viagens particulares.
 
 ## 3. Modelagem do processo de negócio
 
