@@ -94,11 +94,9 @@ Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), em 2019 o des
 
 ## 3.3. Processos
 
-### 3.3.1 Processo 1 – NOME DO PROCESSO
+### 3.3.1 Processo 1 – Processo de cadastramento de serviço de usuário
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN.
-
-![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/process.png "Modelo BPMN do Processo 1.")
+![Modelo BPMN do processo 1](imagens/cadastrarServico.png "Modelo BPMN do Processo de cadastramento de serviço de usuário.")
 
 
 ### 3.3.2 Processo 2 – NOME DO PROCESSO
