@@ -108,6 +108,10 @@ Abaixo é exibido o modelo de processo de avaliação:
 
 ![Modelo BPMN do PROCESSO 3](imagens/modelo_processo_avaliacao.png "Modelo BPMN do Processo de avaliação.")
 
+### 3.3.4 Processo 4 - Processo de pedido
+
+![Modelo BMPN do PROCESSO 4](imagens/processo_pedido.svg "Modelo BPMN do Processo de pediddo")
+
 ## 4. Projeto da Solução
 
 ### 4.1. Detalhamento das atividades
