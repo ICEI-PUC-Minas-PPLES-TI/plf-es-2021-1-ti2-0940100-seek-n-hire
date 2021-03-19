@@ -99,11 +99,9 @@ Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), em 2019 o des
 ![Modelo BPMN do processo 1](imagens/cadastrarServico.png "Modelo BPMN do Processo de cadastramento de serviço de usuário.")
 
 
-### 3.3.2 Processo 2 – NOME DO PROCESSO
+### 3.3.2 Processo 2 – Processo de pgamento
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/call_process.png "Modelo BPMN do Processo 2.")
+![Modelo BPMN do PROCESSO 2](imagens/Processo-pagamento.png "Modelo BPMN do Processo de pagamento.")
 
 ## 4. Projeto da Solução
 
