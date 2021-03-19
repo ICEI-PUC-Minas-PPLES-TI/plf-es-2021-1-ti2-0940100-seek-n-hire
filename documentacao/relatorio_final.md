@@ -96,14 +96,24 @@ Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), em 2019 o des
 
 ### 3.3.1 Processo 1 – Processo de cadastramento de serviço de usuário
 
-![Modelo BPMN do processo 1](imagens/cadastrarServico.png "Modelo BPMN do Processo de cadastramento de serviço de usuário.")
+![Modelo BPMN do processo 1](imagens/cadastrarServico.jpg "Modelo BPMN do Processo de cadastramento de serviço de usuário.")
 
 
+<<<<<<< HEAD
 ### 3.3.2 Processo de avaliação de serviço prestado
 
 Abaixo está o modelo de processo de avaliação de serviço prestado:
 
 ![Modelo BPMN do Processo de Avaliação](imagens/modelo_processo_avaliacao.png "Modelo BPMN do Processo de Avaliação.")
+=======
+
+### 3.3.3 Processo 3 – Processo de avaliação
+
+![Modelo BPMN do PROCESSO 2](imagens/Processo-pagamento.png "Modelo BPMN do Processo de pagamento.")
+>>>>>>> 5600b98ae126186a15ff65fec81e9616a4df146b
+
+![Modelo BPMN do PROCESSO 3](imagens/modelo_processo_avaliacao.png "Modelo BPMN do Processo de avaliação.")
+### 3.3.4 Processo 2 – Processo de pgamento
 
 ## 4. Projeto da Solução
 
