@@ -106,7 +106,7 @@ Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), em 2019 o des
 
 Abaixo é exibido o modelo de processo de avaliação:
 
-![Modelo BPMN do PROCESSO 3](imagens/modelo_processo_avaliacao.png "Modelo BPMN do Processo de avaliação.")
+![Modelo BPMN do PROCESSO 3](imagens/modelo_processo_avaliacao.jpg "Modelo BPMN do Processo de avaliação.")
 
 ## 4. Projeto da Solução
 
