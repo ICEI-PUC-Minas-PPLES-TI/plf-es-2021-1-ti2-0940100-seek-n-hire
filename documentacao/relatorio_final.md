@@ -114,11 +114,6 @@ Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), em 2019 o des
 
 ![Modelo BMPN do PROCESSO 4](imagens/modelo_processo_avaliacao.jpg "Modelo BPMN do Processo de avaliação.")
 
-<<<<<<< HEAD
-![Modelo BPMN do PROCESSO 3](imagens/modelo_processo_avaliacao.jpg "Modelo BPMN do Processo de avaliação.")
-=======
->>>>>>> 03cce4ffcf07de1eed45750f5918faef58b30bf2
-
 ## 4. Projeto da Solução
 
 ### 4.1. Detalhamento das atividades
