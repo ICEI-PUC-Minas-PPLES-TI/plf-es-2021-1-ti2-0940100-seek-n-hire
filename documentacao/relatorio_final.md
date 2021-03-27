@@ -100,7 +100,7 @@ Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), em 2019 o des
 
 ### 3.3.2 Processo 2 – Processo de cadastramento de serviço de usuário
 
-![Modelo BPMN do PROCESSO 2](imagens/cadastrarServico.png "Modelo BPMN do Processo de cadastramento de serviço de usuário.")
+![Modelo BPMN do PROCESSO 2](imagens/cadastrarServico.jpg "Modelo BPMN do Processo de cadastramento de serviço de usuário.")
 
 ### 3.3.3 Processo 3 - Processo de pedido
 
