@@ -108,7 +108,7 @@ Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), em 2019 o des
 
 ### 3.3.4 Processo 4 – Processo de pagamento 
 
-![Modelo BPMN do PROCESSO 3](imagens/Processo-pagamento.jpg "Modelo BPMN do Processo de pagamento.")
+![Modelo BPMN do PROCESSO 3](imagens/Processo-pagamento.png "Modelo BPMN do Processo de pagamento.")
 
 ### 3.3.5 Processo 5 - Processo de avaliação
 
