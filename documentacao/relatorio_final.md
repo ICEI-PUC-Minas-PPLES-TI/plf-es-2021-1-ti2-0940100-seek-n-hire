@@ -104,7 +104,7 @@ Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), em 2019 o des
 
 ### 3.3.3 Processo 3 - Processo de pedido
 
-![Modelo BMPN do PROCESSO 4](imagens/processo_pedido.svg "Modelo BPMN do Processo de pedido")
+![Modelo BMPN do PROCESSO 4](imagens/processo_pedido.png "Modelo BPMN do Processo de pedido")
 
 ### 3.3.4 Processo 4 – Processo de pagamento 
 
