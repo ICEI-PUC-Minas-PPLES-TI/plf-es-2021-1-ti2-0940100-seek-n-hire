@@ -168,6 +168,13 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | horário | Data(HH:MM) | Deve ser em um horário disponivel para o prestador | Horario atual |
 | Dia | Data(DD/MM) | Deve ser em um dia disponivel para o prestador | Data atual |
 
+**Responder pedido**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Aceitar | Botão | - | - |
+| Recusar | Botão | - | - |
+
 ### 4.2. Tecnologias
 
 Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas. Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
