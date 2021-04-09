@@ -133,21 +133,44 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Login | Caixa de Texto | Mínimo 5 caracteres | - |
 | Senha | Caixa de Texto | mínimo de 8 caracteres | - |
 
-#### Processo 2 – NOME DO PROCESSO
+#### Processo 2 – Cadastramento de Serviço de Usuário
 
-**Nome da atividade 1**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
-
-**Nome da atividade 2**
+**Serviço prestado**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
+| Selecionar serviço | Seleção única | Serviço deve ser selecionado | - |
 |    |    |     |
+
+**Área de atuação**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+|  Selecionar área de atuação  |  Caixa de texto  |   -  |  -  |
+|    |    |     |
+
+**Definir frete**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+|  Definir o preço do frete  |  Número  |   -  |  -  |
+|    |    |     |
+
+**Disponibilidade da agenda**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+|  Selecionar datas disponiveis na agenda  |  Data  |  Mínimo uma data  |  -  |
+|    |    |     |
+
+**Forma de pagamento**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+|  Selecionar forma de pagamento  |  Múltipla escolha  |  Mínimo uma forma de pagamento  |  -  |
+|    |    |     |
+
+
 
 ### 4.2. Tecnologias
 
