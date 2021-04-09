@@ -146,8 +146,27 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 |  Selecionar forma de pagamento  |  Múltipla escolha  |  Mínimo uma forma de pagamento  |  -  |
 |    |    |     |
 
+#### Processo 3 – Pedido
 
+**Selecionar Pedido**
 
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Pequisar serviço | Texto | Obrigatorio | - |
+|  Selecionar serviço  |  Escolha única | Obrigatorio | - |
+
+**Selecionar forma de pagamento**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Selecionar forma de pagamento | Múltipla escolha | Mínimo uma forma de pagamento | - |
+
+**Selecionar horário/data disponivel**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| horário | Data(HH:MM) | Deve ser em um horário disponivel para o prestador | Horario atual |
+| Dia | Data(DD/MM) | Deve ser em um dia disponivel para o prestador | Data atual |
 
 ### 4.2. Tecnologias
 
