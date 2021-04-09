@@ -140,35 +140,12 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Selecionar serviço | Seleção única | Serviço deve ser selecionado | - |
-|    |    |     |
-
-**Área de atuação**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
 |  Selecionar área de atuação  |  Caixa de texto  |   -  |  -  |
-|    |    |     |
-
-**Definir frete**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
 |  Definir o preço do frete  |  Número  |   -  |  -  |
-|    |    |     |
-
-**Disponibilidade da agenda**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
 |  Selecionar datas disponiveis na agenda  |  Data  |  Mínimo uma data  |  -  |
-|    |    |     |
-
-**Forma de pagamento**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
 |  Selecionar forma de pagamento  |  Múltipla escolha  |  Mínimo uma forma de pagamento  |  -  |
 |    |    |     |
+
 
 
 
