@@ -108,7 +108,7 @@ Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), em 2019 o des
 
 ### 3.3.4 Processo 4 – Processo de pagamento 
 
-![Modelo BPMN do PROCESSO 4](imagens/Processo-pagamento.png "Modelo BPMN do Processo de pagamento.")
+![Modelo BPMN do PROCESSO 4](imagens/Processo-pagamento.svg "Modelo BPMN do Processo de pagamento.")
 
 ### 3.3.5 Processo 5 - Processo de avaliação
 
@@ -146,8 +146,15 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 |  Selecionar forma de pagamento  |  Múltipla escolha  |  Mínimo uma forma de pagamento  |  -  |
 |    |    |     |
 
+#### Processo 4 – Processo de Pagamento
 
 
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Selecionar método de pagamento | Seleção única | Campo obrigatório| - |
+| Dados do cartão | Numerico | Deve ter 16 caracteres e ser valido | - |
+| Recebeu dinheiro | Boolean | - | Sim |
+| Recebeu serviço | Boolean | - | Sim |
 
 ### 4.2. Tecnologias
 
