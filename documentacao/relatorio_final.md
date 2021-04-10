@@ -146,8 +146,29 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 |  Selecionar forma de pagamento  |  Múltipla escolha  |  Mínimo uma forma de pagamento  |  -  |
 |    |    |     |
 
+**Selecionar forma de pagamento**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Selecionar forma de pagamento | Múltipla escolha | Mínimo uma forma de pagamento | - |
+
+**Selecionar horário/data disponivel**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| horário | Data(HH:MM) | Deve ser em um horário disponivel para o prestador | Horario atual |
+| Dia | Data(DD/MM) | Deve ser em um dia disponivel para o prestador | Data atual |
+
+**Responder pedido**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Aceitar | Botão | - | - |
+| Recusar | Botão | - | - |
+
 #### Processo 4 – Processo de Pagamento
 
+**Selecionar Pedido**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
@@ -155,6 +176,8 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Dados do cartão | Numerico | Deve ter 16 caracteres e ser valido | - |
 | Recebeu dinheiro | Boolean | - | Sim |
 | Recebeu serviço | Boolean | - | Sim |
+| Pequisar serviço | Texto | Obrigatorio | - |
+|  Selecionar serviço  |  Escolha única | Obrigatorio | - |
 
 ### 4.2. Tecnologias
 
