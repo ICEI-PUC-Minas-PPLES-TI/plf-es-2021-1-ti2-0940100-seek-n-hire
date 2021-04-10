@@ -175,11 +175,19 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | --- | --- | --- | --- |
 | Selecionar método de pagamento | Seleção única | Campo obrigatório| - |
 | Dados do cartão | Numerico | Deve ter 16 caracteres e ser valido | - |
-| Recebeu dinheiro | Boolean | - | Sim |
-| Recebeu serviço | Boolean | - | Sim |
-| Pequisar serviço | Texto | Obrigatorio | - |
-|  Selecionar serviço  |  Escolha única | Obrigatorio | - |
+| Validade do cartão | Data | Deve ser uma data passada que a de agora | - |
 
+**Reembolso para o Comprador**
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Recebeu serviço | Boolean | - | Sim |
+| Dados da conta para reembolso | Numerico | - | - |
+
+**Dinheiro liberado para o fornecedor do serviço**
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Recebeu serviço | Boolean | - | Sim |
+| Dados da conta | Texto | - | - |
 ### 4.2. Tecnologias
 
 Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas. Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
