@@ -169,16 +169,27 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 #### Processo 4 – Processo de Pagamento
 
+#### Processo 4 – Processo de Pagamento
+
 **Selecionar Pagamento**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Selecionar método de pagamento | Seleção única | Campo obrigatório| - |
 | Dados do cartão | Numerico | Deve ter 16 caracteres e ser valido | - |
-| Recebeu dinheiro | Boolean | - | Sim |
+| Validade do cartão | Data | Deve ser uma data passada que a de agora | - |
+
+**Reembolso para o Comprador**
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
 | Recebeu serviço | Boolean | - | Sim |
-| Pequisar serviço | Texto | Obrigatorio | - |
-|  Selecionar serviço  |  Escolha única | Obrigatorio | - |
+| Dados da conta para reembolso | Numerico | - | - |
+
+**Dinheiro liberado para o fornecedor do serviço**
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Recebeu serviço | Boolean | - | Sim |
+| Dados da conta | Texto | - | - |
 
 #### Processo 5 – Processo de Avaliação
 
