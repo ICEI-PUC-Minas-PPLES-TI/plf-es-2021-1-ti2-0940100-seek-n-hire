@@ -180,6 +180,17 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Pequisar serviço | Texto | Obrigatorio | - |
 |  Selecionar serviço  |  Escolha única | Obrigatorio | - |
 
+#### Processo 5 – Processo de Avaliação
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Avaliação | Rate 0 - 5 estrelas | - | - |
+| Caixa de texto "O que pode melhorar?" | Texto livre | Avaliação de rate igual ou menor que 3 estrelas; máximo 999 caracteres | - |
+| Caixa de texto "Elogios e sugestões" | Texto livre | Avaliação de rate maior que 3 estrelas; máximo 999 caracteres | - |
+| Deixar gorjeta? | Botão | Sim; não | - |
+| Valor da gorjeta | Números | Não aceita caracteres não numéricos | Padrão auto-ajustável de valor monetário "R$ xx,xx" |
+| Concluir | Botão | - | - |
+
 ### 4.2. Tecnologias
 
 Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas. Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
