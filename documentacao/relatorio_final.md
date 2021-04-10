@@ -146,6 +146,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 |  Selecionar forma de pagamento  |  Múltipla escolha  |  Mínimo uma forma de pagamento  |  -  |
 |    |    |     |
 
+#### Processo 3 – Processo de Pedido
 **Selecionar forma de pagamento**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
@@ -168,7 +169,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 #### Processo 4 – Processo de Pagamento
 
-**Selecionar Pedido**
+**Selecionar Pagamento**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
