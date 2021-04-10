@@ -129,8 +129,8 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Nome Completo | Caixa de texto | Ao menos duas palavras | - |
 | Data de Nascimento | Data | Mínimo 18 anos | - |
 | CEP | Caixa de texto | Números | - |
-| Email | Caixa de Texto | Formato de e-mail | - |
-| Login | Caixa de Texto | Mínimo 5 caracteres | - |
+| CPF | Caixa de Texto | Formato de CPF | - |
+| Login | Caixa de Texto | Formato de e-mail | - |
 | Senha | Caixa de Texto | mínimo de 8 caracteres | - |
 
 #### Processo 2 – Cadastramento de Serviço de Usuário
