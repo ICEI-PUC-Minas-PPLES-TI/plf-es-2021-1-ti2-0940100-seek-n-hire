@@ -147,11 +147,19 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 |    |    |     |
 
 #### Processo 3 – Processo de Pedido
+
+**Selecionar Pedido**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Pequisar serviço | Texto | Obrigatorio | - |
+|  Selecionar serviço  |  Escolha única | Obrigatorio | - |
+
 **Selecionar forma de pagamento**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Selecionar forma de pagamento | Múltipla escolha | Mínimo uma forma de pagamento | - |
+| Selecionar forma de pagamento | Escolha única | Obrigatorio | - |
 
 **Selecionar horário/data disponivel**
 
