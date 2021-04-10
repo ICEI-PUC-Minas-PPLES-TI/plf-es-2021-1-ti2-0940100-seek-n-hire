@@ -169,7 +169,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 #### Processo 4 – Processo de Pagamento
 
-**Selecionar Pedido**
+**Selecionar Pagamento**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
