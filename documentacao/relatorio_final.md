@@ -179,7 +179,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Pequisar serviço | Texto | Obrigatorio | - |
 |  Selecionar serviço  |  Escolha única | Obrigatorio | - |
 
-#### Processo 5 – Avaliação
+#### Processo 5 – Processo de Avaliação
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
