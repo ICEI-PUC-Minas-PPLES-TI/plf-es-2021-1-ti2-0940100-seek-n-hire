@@ -184,18 +184,28 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Selecionar método de pagamento | Seleção única | Campo obrigatório| - |
 | Dados do cartão | Numerico | Deve ter 16 caracteres e ser valido | - |
 | Validade do cartão | Data | Deve ser uma data passada que a de agora | - |
+| Nome impresso no cartão | Texto | Deve estar em maisculas | - |
+| CVV | Númerico | Deve ter 3 números | - |
 
 **Reembolso para o Comprador**
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Recebeu serviço | Boolean | - | Sim |
-| Dados da conta para reembolso | Numerico | - | - |
+| Código do banco | Númerico | - | - |
+| Agência | Númerico | Deve conter 5 dígitos | - |
+| Conta | Númerico | Deve conter 11 digitos e o número verificador | - |
+| Nome completo | Texto | - | - |
+| CPF | Número | Deve conter 11 digitos | 000.000.000-00 |
 
 **Dinheiro liberado para o fornecedor do serviço**
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Recebeu serviço | Boolean | - | Sim |
-| Dados da conta | Texto | - | - |
+| Código do banco | Númerico | - | - |
+| Agência | Númerico | Deve conter 5 dígitos | - |
+| Conta | Númerico | Deve conter 11 digitos e o número verificador | - |
+| Nome completo | Texto | - | - |
+| CPF | Número | Deve conter 11 digitos | 000.000.000-00 |
 
 #### Processo 5 – Processo de Avaliação
 
