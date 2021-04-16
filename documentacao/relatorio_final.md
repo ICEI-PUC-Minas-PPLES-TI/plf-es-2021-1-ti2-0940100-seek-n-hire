@@ -236,7 +236,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Caixa de texto "O que pode melhorar?" | Texto | Avaliação de rate igual ou menor que 3 estrelas; máximo 999 caracteres | - |
 | Caixa de texto "Elogios e sugestões" | Texto | Avaliação de rate maior que 3 estrelas; máximo 999 caracteres | - |
 | Deixar gorjeta? | Botão | Sim; não | - |
-| Valor da gorjeta | Números | Não aceita caracteres não numéricos | Padrão auto-ajustável de valor monetário "R$ xx,xx" |
+| Valor da gorjeta | Números | Não aceita caracteres não numéricos | 02,00 |
 
 ### 4.2. Tecnologias
 
