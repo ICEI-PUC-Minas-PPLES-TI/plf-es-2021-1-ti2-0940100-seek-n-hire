@@ -166,7 +166,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | horário | Data(HH:MM) | Deve ser em um horário disponivel para o prestador | Horario atual |
-| Dia | Data(DD/MM) | Deve ser em um dia disponivel para o prestador | Data atual |
+| Dia | Data(DD/MM/AA) | Deve ser em um dia disponivel para o prestador | Data atual |
 
 **Responder pedido**
 
