@@ -211,12 +211,11 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Avaliação | Rate 0 - 5 estrelas | - | - |
-| Caixa de texto "O que pode melhorar?" | Texto livre | Avaliação de rate igual ou menor que 3 estrelas; máximo 999 caracteres | - |
-| Caixa de texto "Elogios e sugestões" | Texto livre | Avaliação de rate maior que 3 estrelas; máximo 999 caracteres | - |
+| Avaliação | Numérico | - | - |
+| Caixa de texto "O que pode melhorar?" | Texto | Avaliação de rate igual ou menor que 3 estrelas; máximo 999 caracteres | - |
+| Caixa de texto "Elogios e sugestões" | Texto | Avaliação de rate maior que 3 estrelas; máximo 999 caracteres | - |
 | Deixar gorjeta? | Botão | Sim; não | - |
 | Valor da gorjeta | Números | Não aceita caracteres não numéricos | Padrão auto-ajustável de valor monetário "R$ xx,xx" |
-| Concluir | Botão | - | - |
 
 ### 4.2. Tecnologias
 
