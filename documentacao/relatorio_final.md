@@ -244,13 +244,8 @@ Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou se
 
 ## 5. Modelagem de dados
 
-Apresente o modelo de dados. Defina o dicionário de dados com os respectivos formatos e significados.
 
-### 5.1. Diagrama de Entidade-Relacionamento
-
-Apresente aqui o Diagrama de Entidade-Relacionamento (DER) que contemple todos conceitos e atributos apresentados item anterior. Deve contemplar também o controle de acesso de usuários de acordo com os papeis definidos nos modelos do processo de negócio.
-
-![Diagrama de Entidade Relacionamento de Exemplo](imagens/er_diagram.png "Diagrama de Entidade Relacionamento de Exemplo")
+![Diagrama de Entidade Relacionamento](imagens/BD.png "Diagrama de Entidade Relacionamento")
 
 
 ## 6. Indicadores de desempenho
