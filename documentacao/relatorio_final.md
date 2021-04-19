@@ -242,6 +242,16 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas. Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
+#### 4.2.1. Wireframes
+
+##### 4.2.1.1 Login
+
+![Wireframe de Login](imagens/Wireframes/Login.png "Wireframe de Login")
+
+##### 4.2.1.2 Registro de Usuario
+
+![Wireframe de Registro de Usuario](imagens/Wireframes/Registro_Usuario.png "Wireframe de Registro de Usuario")
+
 ## 5. Modelagem de dados
 
 
