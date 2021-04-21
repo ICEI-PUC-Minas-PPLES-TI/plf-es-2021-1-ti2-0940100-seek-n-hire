@@ -255,6 +255,7 @@ Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou se
 ##### 4.2.1.3 Página inicial
 ![Wireframe da página inicial](imagens/Wireframes/paginainicialWireframe.png "Wireframe da página inicial")
 
+##### 4.2.1.3.1 Página inicial pt2
 ![Wireframe da página inicial pt2](imagens/Wireframes/paginainicial2Wireframe.png "Wireframe da página inicial pt2")
 ## 5. Modelagem de dados
 
