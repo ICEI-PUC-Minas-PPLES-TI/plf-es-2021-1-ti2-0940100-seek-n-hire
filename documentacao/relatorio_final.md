@@ -257,6 +257,14 @@ Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou se
 
 ##### 4.2.1.3.1 Página inicial pt2
 ![Wireframe da página inicial pt2](imagens/Wireframes/paginainicial2Wireframe.png "Wireframe da página inicial pt2")
+
+##### 4.2.1.4 Cadastro de serviço (página 01)
+![Wireframe do cadastro de serviço pg 01](imagens/Wireframes/cadastro_servico_pg01.png "Wireframe do cadastro de serviço pg 01")
+
+##### 4.2.1.4.1 Cadastro de serviço (página 02)
+![Wireframe do cadastro de serviço pg 02](imagens/Wireframes/cadastro_servico_pg02.png "Wireframe do cadastro de serviço pg 02")
+
+
 ## 5. Modelagem de dados
 
 
