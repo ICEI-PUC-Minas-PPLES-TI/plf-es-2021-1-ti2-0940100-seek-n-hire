@@ -240,7 +240,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 ### 4.2. Tecnologias
 
-Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas. Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+As tecnológias utilizadas pelo grupo nesse projeto serão Javascript para comunicação entre front e o banco de dados, o MySQL para configuração no banco e o HTML5 e CSS3 para estruturação da página. Como framework nós usaremos o bootstrap. A IDEE utilizada foi o Vscode, para fazer os wireframes utilizamos o Marvel App e para organização de sprint e documentação utilizamos o Github.
 
 #### 4.2.1. Wireframes
 
