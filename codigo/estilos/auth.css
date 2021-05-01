@@ -4,7 +4,7 @@
   color: #fff;
 }
 
-#login-box {
+.auth-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,7 +14,6 @@
   min-height: 100%;
   width: 100%;
   max-width: 600px;
-  background-color: #6b9dc8;
 }
 
 .logo-wrapper {
