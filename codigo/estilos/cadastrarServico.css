@@ -1,0 +1,73 @@
+header{
+    background-color: #3E6181 ;
+}
+header>img{
+    width: 5vw;
+    background-color: #6B9DC8;
+}
+.title h1{
+    text-align: center;
+    color: #3E6181;
+}
+hr:not([size]) {
+    height: 2px;
+}
+hr{
+    color: #04223f;
+}
+.regiao{
+    margin-right: 10%;
+    margin-left: 20%;
+}
+.opcoes{
+    margin-right: 10%;
+    margin-left: 20%;
+}
+input{
+    border: none;
+    border-radius: 8px;
+    background-color: #6B9DC8;
+    width: 80%;
+    padding: 10px;
+}
+select{
+    border: none;
+    border-radius: 8px;
+    background-color: #6B9DC8;
+    width: 80%;
+    padding: 10px;  
+}
+#marcar select{
+    width: 30% !important;
+}
+small{
+    color: #3E6181;
+    font-size: 18px;
+}
+@media screen and (max-width: 1024px) {
+    header{
+        width: 100vw;
+        height: 15vw;  
+    }
+    .regiao{
+        margin:0 10%;
+    }
+    small{
+        font-size: 30px;
+    }
+    input{
+        width: 100%;
+        font-size: 30px;
+    }
+    select{
+        width: 100%;
+        margin: 0%;
+        font-size: 30px;
+    }
+    .opcoes{
+        margin: 0 10%;
+    }
+    #marcar select{
+        width: 40% !important;
+    }
+}
