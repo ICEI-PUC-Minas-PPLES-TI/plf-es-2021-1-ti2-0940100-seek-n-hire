@@ -8,6 +8,9 @@ function Validation(){
         valido = false;
         document.getElementById('name').style.display = "none";
     }
+    if (validateCPF() == true) {
+        document.getElementById('cpf').style.display = "none";
+    }
 
 }
 function validateCPF(){
