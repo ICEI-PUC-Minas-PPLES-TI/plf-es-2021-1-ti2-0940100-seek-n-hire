@@ -1,80 +1,91 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Cadastro</title>
-    <link href="../estilos/main.css" rel="stylesheet" />
-    <link href="../estilos/auth.css" rel="stylesheet" />
-    <link href="../estilos/cadastro.css" rel="stylesheet" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
 
-  <body>
-    <div id="wrapper">
-      <div id="register-box" class="auth-box">
-        <div class="logo-wrapper blue-filtered-logo"></div>
-        <form id="login-form" method="POST" action="/">
-          <div class="fields-wrapper">
-              <label for="name-input">Nome Completo:</label>
-              <input id="name-input" name="name" />
+<head>
+  <title>Cadastro</title>
+  <link href="../estilos/main.css" rel="stylesheet" />
+  <link href="../estilos/auth.css" rel="stylesheet" />
+  <link href="../estilos/cadastro.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script type="text/javascript" src="../JavaScript/cadastro.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="register-box" class="auth-box">
+      <div class="logo-wrapper blue-filtered-logo"></div>
+      <form id="login-form" method="POST" action="/">
+        <div class="fields-wrapper">
+          <label for="name-input">Nome Completo:</label>
+          <input onchange='Validation()' id="name-input" name="name" />
+          <div class="invalid-feedback" id="name">
+            Insira nome e sobrenome
           </div>
-          <div class="fields-wrapper">
-            <div class="field">
-              <label for="cpf">CPF</label>
-              <input id="cpf" name="cpf" />
-            </div>
-            <div class="field">
-              <label for="birthdate">Data de nascimento</label>
-              <input id="birthdate" name="birthdate" />
-            </div>
-          </div>
-          <div class="fields-wrapper">
-            <div class="field">
-              <label for="zipcode">CEP</label>
-              <input id="zipcode" name="zipcode" />
-            </div>
-            <div class="field">
-              <label for="street" disabled>Rua:</label>
-              <input id="street" name="street" />
-            </div>
-          </div>
-          <div class="fields-wrapper">
-            <div class="field">
-              <label for="city" disabled>Cidade:</label>
-              <input id="city" name="city" />
-            </div>
-            <div class="field">
-              <label for="state" disabled>Estado:</label>
-              <input id="state" name="state" />
+        </div>
+        <div class="fields-wrapper">
+          <div class="field">
+            <label for="cpf">CPF</label>
+            <input onchange='validateCPF()' id="cpf-input" name="cpf" />
+            <div class="invalid-feedback" id="cpf">
+              CPF inválido!
             </div>
           </div>
-          <div class="fields-wrapper">
-            <div class="field">
-              <label for="number">Número:</label>
-              <input id="number" name="number" />
-            </div>
-            <div class="field">
-              <label for="additional-address-info">Complemento</label>
-              <input id="additional-address-info" name="additional-address-info" />
-            </div>
+          <div class="field">
+            <label for="birthdate">Data de nascimento</label>
+            <input id="birthdate" name="birthdate" />
           </div>
-          <div class="fields-wrapper">
-            <label for="email">Email:</label>
-            <input id="email" name="email" />
+        </div>
+        <div class="fields-wrapper">
+          <div class="field">
+            <label for="zipcode">CEP</label>
+            <input id="zipcode" name="zipcode" />
           </div>
-          <div class="fields-wrapper">
-            <div class="field">
-              <label for="password">Senha:</label>
-              <input id="password" name="password" />
-            </div>
-            <div class="field">
-              <label for="password-cofirmation">Confirmar senha:</label>
-              <input id="password-cofirmation" name="password-confirmation" />
-            </div>
+          <div class="field">
+            <label for="street" disabled>Rua:</label>
+            <input id="street" name="street" />
           </div>
-          <button class="btn btn-primary" type="submit">Entrar</button>
-        </form>
-        <a href="./" class="anchor">Registre-se</a>
-      </div>
+        </div>
+        <div class="fields-wrapper">
+          <div class="field">
+            <label for="city" disabled>Cidade:</label>
+            <input id="city" name="city" />
+          </div>
+          <div class="field">
+            <label for="state" disabled>Estado:</label>
+            <input id="state" name="state" />
+          </div>
+        </div>
+        <div class="fields-wrapper">
+          <div class="field">
+            <label for="number">Número:</label>
+            <input id="number" name="number" />
+          </div>
+          <div class="field">
+            <label for="additional-address-info">Complemento</label>
+            <input id="additional-address-info" name="additional-address-info" />
+          </div>
+        </div>
+        <div class="fields-wrapper">
+          <label for="email">Email:</label>
+          <input id="email" name="email" />
+        </div>
+        <div class="fields-wrapper">
+          <div class="field">
+            <label for="password">Senha:</label>
+            <input id="password" name="password" />
+          </div>
+          <div class="field">
+            <label for="password-cofirmation">Confirmar senha:</label>
+            <input id="password-cofirmation" name="password-confirmation" />
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Entrar</button>
+      </form>
+      <a href="./" class="anchor">Registre-se</a>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
