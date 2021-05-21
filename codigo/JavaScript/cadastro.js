@@ -8,13 +8,14 @@ function Validation(){
         valido = false;
         document.getElementById('name').style.display = "none";
     }
-    if (validateCPF() == true) {
+    if (validateCPF(cpf = document.getElementById('cpf-input').value) == true) {
         document.getElementById('cpf').style.display = "none";
+    }else{
+        document.getElementById('cpf').style.display = "block";
     }
 
 }
-function validateCPF(){
-    cpf = document.getElementById('cpf-input').value;
+function validateCPF(cpf){
     cpf.replace(/[^0-9]/g, '');
     if (cpf.length !== 11) {
       return false;
