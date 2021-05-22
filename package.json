@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2021-1-ti2-0940100-seek-n-hire#readme",
   "dependencies": {
-    "correios-brasil": "^2.2.2"
+    "correios-brasil": "^2.2.2",
+    "run": "^1.4.0",
+    "serve": "^11.3.2"
   }
 }

@@ -49,3 +49,41 @@ function validateCPF(cpf){
     }
     return true;
   }
+
+  function retornaCep () {
+    const form = document.querySelector('#login-form');
+
+ 
+        let getCep = form.querySelector('#zipcode')
+        let cep = getCep.value;
+        let getRua = form.querySelector('#street')
+        let rua = getRua.value;
+        let getCidade = form.querySelector('#city')
+        let cidade = getCidade.value;
+        let getEstado = form.querySelector('#state')
+        let estado = getEstado.value;
+        console.log(cep);
+        var url = `http://viacep.com.br/ws/${cep}/json/`
+        console.log(url)
+        fetch(url, {method: 'GET'}).then (response => {
+            response.json().then(dados => {
+                getRua.value = dados.logradouro;
+                getCidade.value = dados.localidade;
+                getEstado.value = dados.uf
+            })
+        }) 
+        if (!url) {
+            alert('CEP inválido.');
+            return;
+        }
+        if (!cep) {
+            alert('CEP deve ser numérico');
+            return;
+        } else {
+
+        }
+}   
+
+
+retornaCep();
+
