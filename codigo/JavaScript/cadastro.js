@@ -5,15 +5,27 @@ function Validation(){
         valido = false;
         document.getElementById('name').style.display = "block";
     }else{
-        valido = false;
+        valido = true;
         document.getElementById('name').style.display = "none";
     }
     if (validateCPF(cpf = document.getElementById('cpf-input').value) == true) {
+        valido = true;
         document.getElementById('cpf').style.display = "none";
     }else{
+        valido = false;
         document.getElementById('cpf').style.display = "block";
+    }if(document.getElementById('password_input').value.length < 7){
+        document.getElementById('password').style.display = "block";
+    }else{
+        document.getElementById('password').style.display = "none";
     }
-
+}
+function SenhaIgual(){
+    if( document.getElementById('password_cofirmation_input').value == document.getElementById('password_input').value){
+        document.getElementById('password-cofirmation').style.display = "none";
+    }else{
+        document.getElementById('password-cofirmation').style.display = "block";
+    }
 }
 function validateCPF(cpf){
     cpf.replace(/[^0-9]/g, '');
