@@ -44,7 +44,15 @@ small{
     color: #3E6181;
     font-size: 18px;
 }
-@media screen and (max-width: 1024px) {
+button{
+    width: 90%;  
+    padding: 15px;
+    border-radius:8px ;
+    border: none;
+    background-color: #3E6181;
+    color: white;
+}
+@media screen and (max-width: 1200px) {
     header{
         width: 100vw;
         height: 15vw;  
@@ -70,4 +78,22 @@ small{
     #marcar select{
         width: 40% !important;
     }
+    .mobile{
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%
+    }
+    button{
+        margin-left: 85px;
+        width: 80%;
+    }
+}
+.casa{
+    display: none;
+}
+.admin{
+    display: none;
+}
+.educacao{
+    display: none;
 }

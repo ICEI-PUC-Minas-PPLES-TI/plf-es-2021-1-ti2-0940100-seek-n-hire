@@ -74,11 +74,17 @@
         <div class="fields-wrapper">
           <div class="field">
             <label for="password">Senha:</label>
-            <input id="password" name="password" />
+            <input onchange="Validation()" type="password" id="password_input" name="password"/>
+            <div class="invalid-feedback" id="password">
+              Senha precisa ter mais de 5 caracteres!
+            </div>
           </div>
           <div class="field">
             <label for="password-cofirmation">Confirmar senha:</label>
-            <input id="password-cofirmation" name="password-confirmation" />
+            <input onchange="SenhaIgual()" type="password" id="password_cofirmation_input" name="password-confirmation" />
+            <div class="invalid-feedback" id="password-cofirmation">
+              As senhas não coincidem!
+            </div>
           </div>
         </div>
         <button class="btn btn-primary" type="submit">Entrar</button>
