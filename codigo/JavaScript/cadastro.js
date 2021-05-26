@@ -55,7 +55,7 @@ function validateCPF(cpf){
 
  
         let getCep = form.querySelector('#zipcode')
-        let cep = getCep.value;
+        let cep = Number(getCep.value);
         let getRua = form.querySelector('#street')
         let rua = getRua.value;
         let getCidade = form.querySelector('#city')
@@ -72,18 +72,12 @@ function validateCPF(cpf){
                 getEstado.value = dados.uf
             })
         }) 
-        if (!url) {
+        if (!cep) {
             alert('CEP inválido.');
             return;
-        }
-        if (!cep) {
-            alert('CEP deve ser numérico');
-            return;
-        } else {
-
         }
 }   
 
 
-retornaCep();
+
 
