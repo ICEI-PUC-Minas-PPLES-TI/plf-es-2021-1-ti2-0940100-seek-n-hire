@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/818e219f60.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../estilos/cadastrarServico.css">
+    <script type="text/javascript" src="../JavaScript/cadastroServico.js"></script>
+    <title>Seek n Hire</title>
+</head>
+
+<body>
+    <header class="d-flex align-items-center">
+        <img class="p-2 ml-4 bd-highlight" src="/codigo/src/imagens/logo/logopreto.png">
+        <div class="ml-auto mr-5 p-2 bd-highligh">
+            <div class="fa-3x">
+                <i class="far fa-smile-beam"></i>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid title mt-3">
+        <div class="row justify-content-center">
+            <div class="col col-xl-6">
+                <h1>Novo Serviço</h1>
+                <hr>
+                <div class="d-flex flex-column regiao">
+                    <small>Taxa(sem deslocamento)</small>
+                    <input inputmode="text" type="text" id="taxa" name="taxa">
+                    <small class="mt-4">Região de atuação</small>
+                    <input inputmode="text" type="text" id="regiao" name="regiao">
+                </div>
+                <div>
+                    <div class="d-flex flex-column opcoes mt-4">
+                        <small>Área de atuação</small>
+                        <select onchange=" MostraOptions()" id="atuacao" name="natuacao">
+                            <option value="0" selected>Dia a dia</option>
+                            <option value="1">Administração</option>
+                            <option value="2">Educação</option>
+                            <option value="3">Casa</option>
+                        </select>
+                        <small class="mt-4">Serviço</small>
+                        <select class="Dia" id="Dia" name="natuacao">
+                            <option value="0" selected>Faxineiro</option>
+                            <option value="1">Passadeiro</option>
+                            <option value="2">Cuidador de criança</option>
+                        </select>
+                        <select class="admin" name="natuacao">
+                            <option value="0" selected>Contador</option>
+                        </select>
+                        <select class="educacao" name="natuacao">
+                            <option value="0" selected>Aula particular fundamental</option>
+                            <option value="1">Aula particular EM</option>
+                            <option value="2">Aula particular faculdade</option>
+                        </select>
+                        <select class="casa" name="natuacao">
+                            <option value="0" selected> Formatar PC</option>
+                            <option value="1">Decorador</option>
+                            <option>Eletricista</option>
+                            <option value="3"> Pedreiro</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mr-5 ml-2 mt-3">
+        <div class="row justify-content-center">
+            <div class="col col-xl-4">                
+                <div class="d-flex mobile">
+                    <div class="mr-5 mr-xl-0">
+                        <p>Data</p>
+                        <input type="date" class="date" id="data" name="data">
+                    </div>
+                    <div class="ml-sm-5 ml-xl-0">
+                        <p>Hora</p>
+                        <input type="time" class="time" id="tempo" name="tempo">
+                    </div>                            
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mr-5 ml-2 mt-3">
+        <div class="row justify-content-center">
+            <div class="col col-xl-4">
+                <button class="btn btn-primary" type="submit">Salvar</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>

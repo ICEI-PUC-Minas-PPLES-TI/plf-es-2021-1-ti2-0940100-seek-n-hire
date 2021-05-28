@@ -1,5 +1,6 @@
 header{
     background-color: #3E6181 ;
+    margin: 0%;
 }
 header>img{
     width: 5vw;
@@ -15,9 +16,9 @@ header>img{
 #carouselExampleControls{
     margin-top: 2%;
     width: 60vw;
-    height: 50vh;
     margin-left: auto;
     margin-right: auto;
+
 }
 .quadrado>p{
     margin: 0px 2%;
@@ -25,4 +26,13 @@ header>img{
     color: #6B9DC8;
     padding: 2px;
     border-radius: 20px;
+}
+@media screen and (max-width: 1024px) {
+    header{
+        width: 100vw;
+        height: 15vw;  
+    }
+    .carousel-item img{
+        height: 400px !important;
+    }
 }
