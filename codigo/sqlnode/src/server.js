@@ -13,7 +13,7 @@ app.listen(3333);
 const test = async() => {
     //Usado para inserir na tabela 
     await model.Usuario.create({
-        cpf: 3,
+        cpf: 4,
         nome: 'FABIO',
         login: 'fabio@puc.com',
         senha: '123',
