@@ -273,17 +273,14 @@ As tecnológias utilizadas pelo grupo nesse projeto serão Javascript para comun
 
 ## 6. Indicadores de desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores.
-
-Usar o seguinte modelo:
-
 | **Indicador** | **Objetivos** | **Descrição** | **Cálculo** | **Fonte dados** | **Perspectiva** |
 | --- | --- | --- | --- | --- | --- |
-| Percentual reclamações | Avaliar quantitativamente as reclamações | Percentual de reclamações em relação ao total atendimento |   | Tabela reclamações | Aprendizado e Crescimento |
-| Taxa de Requisições abertas | Melhorar a prestação de serviços medindo a porcentagem de requisições | Mede % de requisições atendidas na semana | \*100 | Tabela solicitações | Processos internos |
-| Taxa de entrega de material | Manter controle sobre os materiais que estão sendo entregues | Mede % de material entregue dentro do mês |   | Tabela Pedidos | Clientes |
+| Quantidades de acessos | Verificar com qual frequência as pessoas buscam serviços | Analizar semanalmente quantas vezes uma mesma pessoa acessa a plataforma |  | Pagina principal | --- |
+| Qualidade de serviços | Mostrar para os clientes os serviços com maiores qualidades | Por meio de voltos de 1 à 5 verificar quem teve a maior quantidade de votos | nota atual+montante/quantos votos | Ranking interno | Indicador de qualidade |
+| Sucesso de vendas | Avaliar quantos serviços não foram completados | Verifica o porque do atendimento não ter sido completado | serviços cancelados*100/servicos totais | Descrição do cancelamento | Aprendizado e Crescimento |
+| Indicador de produtividade | Quantos serviços são fechados por hora | Mede qtd de requisições atendidas por dia | | Tabela solicitações | Processos internos |
+| Indicador de Ticket Medio | Verifica quais os valores de tickets sao mais buscados | Mede quais preços dos serviços mais solicitados |  | Tabela Pedidos |  |
 
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe **a ser proposto**
 
 ## 7.Sistema desenvolvido
 
