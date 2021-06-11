@@ -99,15 +99,9 @@ function verificaRegiao() {
 
 
 function verificaDadosNulos() {
-    const getRegiao = document.querySelector("#regiao");
-    const regiao = String(getRegiao.value);
-    const getTaxa = document.querySelector('#taxa');
-    const taxa = Number(getTaxa.value);
-    if (regiao == null) {
-        alert('Favor preencher a região')
-        if (!taxa) {
-            alert ('Favor preencher a taxa')
-        }
+    console.log('teste')
+    if (document.querySelector("#taxa").value == null){
+        alert('teste')
     }
 }
 salvaDados();
