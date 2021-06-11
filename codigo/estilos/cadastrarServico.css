@@ -52,6 +52,12 @@ button{
     background-color: #3E6181;
     color: white;
 }
+.date{
+    width: 100%;
+}
+.time{
+    width: 100%;
+}
 @media screen and (max-width: 1200px) {
     header{
         width: 100vw;

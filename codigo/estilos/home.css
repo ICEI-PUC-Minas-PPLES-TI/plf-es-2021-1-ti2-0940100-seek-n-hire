@@ -6,26 +6,47 @@ header>img{
     width: 5vw;
     background-color: #6B9DC8;
 }
-#txtBusca{
+.txtBusca{
     background-color: #6B9DC8;
-    border: none;
-    border-radius: 20px;
+    border: #3E6181 3px;
+    border-style: solid;
     text-align: center;
-    padding: 8px 0px;
+    color: white;
+    margin-right: 30px;
+    width: 200px;
+    height: 150px;
 }
-#carouselExampleControls{
-    margin-top: 2%;
-    width: 60vw;
-    margin-left: auto;
-    margin-right: auto;
-
+.dia{
+    margin-right: 20%;
 }
+<<<<<<< HEAD
 .quadrado>p{
     margin: 0px 2%;
     background-color: #6B9DC8;
-    color: #6B9DC8;
+    color: #000000;
     padding: 2px;
     border-radius: 20px;
+=======
+.education{
+    margin-right: 20%;
+}
+.txtBusca>h3{
+    font-size: 36px;
+}
+.txtBusca>p{
+    font-size: 30px;
+    background-color: #3E6181;
+    margin-bottom: 0px;
+}
+.quadrado{
+    margin: 30px 30px;
+}
+h1{
+    font-size: 60px;
+}
+.title{
+    margin-left: 30px;
+>>>>>>> eeecd1126fcf3aa5276cab7bc700826cf02ca2d7
 }
 @media screen and (max-width: 1024px) {
     header{
