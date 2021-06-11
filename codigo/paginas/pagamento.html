@@ -6,16 +6,73 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/818e219f60.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../estilos/pagamento.css">
+    <script type="text/javascript" src="../JavaScript/pagamento.js"></script>
     <title>Seek n Hire</title>
 </head>
 
 <body>
-<header class="d-flex align-items-center justify-content-between">
-    <img class="p-2 ms-4 bd-highlight" src="/codigo/src/imagens/logo/logopreto.png">
-    <div class="ms-auto me-5 p-2 bd-highligh">
+    <header class="d-flex align-items-center justify-content-between m-3">
+        <img class="p-2 bd-highlight" src="/codigo/src/imagens/logo/logopreto.png">
         <h1>Pagamento</h1>
-    </div>
-    <i class="fas fa-bars"></i>
-</header>
+        <div class="fa-3x">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <hr>
+    <div>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col col-xl-5">
+                    <input type="radio" id="card" name="payment" value="0" checked onclick="mostrar()">
+                    <label for="card">
+                        <h2>Cartão de crédito</h2>
+                    </label><br>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+            <div class="dadosCard">
+                <label>Nome do cartão: </label>
+                <input class="form-control" type="text" id="name-card" name="card">
+                <label>Número do cartão de crédito: </label>
+                <input class="form-control" type="text" id="number-card" name="number-card">
+                <div class="d-flex">
+                    <div>
+                        <label>Data de expiração</label>
+                        <input class="form-control" type="text" id="date-card" name="date-card">
+                    </div>
+                    <div class="ml-5">
+                        <label>CVV</label>
+                        <input class="form-control" type="text" id="date-card" name="date-card">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col col-xl-5">
+                    <input type="radio" id="payment" name="payment" value="1" onclick="mostrar()">
+                    <label for="payment">
+                        <h2>Pagamento na hora</h2>
+                    </label><br>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+            <div class="options">
+                <input type="radio" id="dinheiro" name="modo" value="1" onclick="mostrar()">
+                <label for="dinheiro">Dinheiro</label><br>
+                <div class="troco ml-5">
+                    <label>Troco: </label>
+                    <input type="text" id="troco" name="troco"><br>
+                </div>
+                <input type="radio" id="dinheiro" name="modo" value="1" onclick="mostrar()">
+                <label for="dinheiro">Cartão</label>
+            </div>
+            <button>Adicionar</button>
+        </div>
+
 </body>
+
 </html>

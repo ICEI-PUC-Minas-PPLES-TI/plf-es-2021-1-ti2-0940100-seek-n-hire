@@ -1,0 +1,41 @@
+header{
+    margin: 0%;
+}
+header>img{
+    width: 7vw;
+}
+label{
+    font-size: 20px;
+}
+input{
+    margin: 0px !important;
+}
+#troco{
+    border: none;
+    border-bottom-style: solid;
+}
+.options{
+    display: none;
+}
+.troco{
+    display: none;
+}
+button{
+    background-color: #6B9DC8;
+    border: none;
+    border-radius: 8px;
+    width: 40%;
+    padding: 16px;
+}
+@media screen and (max-width: 1200px) {
+    h2{
+        padding: 32px 16px;
+        font-size: 80px !important;
+    }
+    label{
+        font-size: 50px !important; 
+    }
+    .dadosCard label{
+        font-size: 30px;
+    }
+}
