@@ -1,0 +1,45 @@
+h1{
+    padding: 32px 0px;
+    font-size: 60px;
+}
+header{
+    background-color: #3E6181 ;
+    margin: 0%;
+}
+header>img{
+    width: 5vw;
+    background-color: #6B9DC8;
+}
+.card-title{
+    font-size: 42px;
+}
+.card-body{
+    font-size: 30px;
+}
+.turn{
+    font-size: 24px;
+    padding: 16px;
+    margin: 16px;
+}
+button{
+    margin-top: 16px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border:#3E6181;
+    background-color: #6B9DC8;
+    color: white;
+}
+@media screen and (max-width: 1024px) {
+    h2{
+        padding: 32px 0px;
+        font-size: 50px;
+    }
+    .turn{
+        font-size: 42px;
+    }
+    button{
+        font-size: 36px;
+        padding: 30px;
+    }
+}

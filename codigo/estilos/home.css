@@ -19,14 +19,6 @@ header>img{
 .dia{
     margin-right: 20%;
 }
-<<<<<<< HEAD
-.quadrado>p{
-    margin: 0px 2%;
-    background-color: #6B9DC8;
-    color: #000000;
-    padding: 2px;
-    border-radius: 20px;
-=======
 .education{
     margin-right: 20%;
 }
@@ -46,7 +38,6 @@ h1{
 }
 .title{
     margin-left: 30px;
->>>>>>> eeecd1126fcf3aa5276cab7bc700826cf02ca2d7
 }
 @media screen and (max-width: 1024px) {
     header{
