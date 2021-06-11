@@ -28,13 +28,7 @@ function MostraOptions() {
 
 
 function salvaDados() {
-
-    //const getRegiao = document.querySelector("#regiao");
     const getAtuacao = document.querySelector('#atuacao');
-    //const getDia = document.querySelector('#Dia');
-    const getData = document.querySelector('#data');
-    const getTempo = document.querySelector('#tempo');
-    
     if (getAtuacao != null) {
         var atuacao = getAtuacao.value;
         console.log(`atuacao ${atuacao}`)
@@ -78,9 +72,15 @@ function salvaDados() {
 }
 
 function verificaData(){
-    if (document.querySelector('#data') != null) {
-        alert('Favor selecionar a data')
-    }
+    let salvaData = document.querySelector('#data')
+    salvaData = salvaData.value;
+    let data = new Date (salvaData);
+    console.log(`DATA ${data.getDate()+1} ${data.getMonth()+1} ${data.getFullYear()}`)
+}
+function verificaHora(){
+    let salvaHorario = document.querySelector('#tempo')
+    salvaHorario = salvaHorario.value;
+    console.log(`HORARIO ${salvaHorario}`);
 }
 
 
@@ -88,26 +88,26 @@ function verificaData(){
 function verificaRegiao() {
     if (document.querySelector("#regiao") != null) {
         const getRegiao = document.querySelector("#regiao");
-        const regiao = String(getRegiao.value);
-        if (!regiao) {
-            alert('A região deve conter apenas letras')
+        const regiao = getRegiao.value;
+        if (typeof(regiao) == Number || !regiao) {
+            alert('Preencha a região corretamente')
             return;
         }
-        if (regiao == null) {
-            
-            input.addEventListener('Submit', function(e) {
-            const input = document.querySelector('.btn');
-            e.preventDefault();
-            alert('Favor preencher a região')
-            })
-            alert('Favor preencher a região')
-            console.log(regiao);
-            input.preventDefault();
-            return;
-        }
-    console.log(regiao);
+    console.log(`REGIAO ${regiao}`);
     }
 }
 
 
+function verificaDadosNulos() {
+    const getRegiao = document.querySelector("#regiao");
+    const regiao = String(getRegiao.value);
+    const getTaxa = document.querySelector('#taxa');
+    const taxa = Number(getTaxa.value);
+    if (regiao == null) {
+        alert('Favor preencher a região')
+        if (!taxa) {
+            alert ('Favor preencher a taxa')
+        }
+    }
+}
 salvaDados();
