@@ -62,7 +62,7 @@ function validateCPF(cpf){
     return true;
   }
 
-  function retornaCep () {
+  function validaCep () {
     const form = document.querySelector('#login-form');
 
  
@@ -90,6 +90,27 @@ function validateCPF(cpf){
         }
 }   
 
+function saveName (){
+    const name = document.querySelector('#name-input').value;
+    console.log(`nome: ${name}`);
+    return name;
+}
 
+function saveBirthdate() {
+    const birthdate = document.querySelector('#birthdate').value;  
+    console.log(`data: ${date}`)
+    return birthdate;
+}
 
+function saveAdditionalAdressInfo() {
+    const additionalAdressInfo = document.querySelector('#additional-address-info').value;  
+    console.log(`complemento: ${additionalAdressInfo}`)
+    return additionalAdressInfo;
+}
+
+function saveEmail() {
+    const email = document.querySelector('#email').value;
+    console.log(`email: ${email}`);
+    return email;
+}
 
