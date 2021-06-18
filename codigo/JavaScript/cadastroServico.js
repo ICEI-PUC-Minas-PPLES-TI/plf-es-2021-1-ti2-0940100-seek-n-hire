@@ -33,26 +33,7 @@ function salvaDados() {
         var atuacao = getAtuacao.value;
         console.log(`atuacao ${atuacao}`)
     }
-    if (document.querySelector('#Dia') != null) {
-        const getDia = document.querySelector('#Dia');
-        const dia = getDia.value;
-        console.log(`Dia ${dia}`)
-    }
-    if (document.querySelector('.admin') != null) {
-        const getAdmin = document.querySelector('.admin');
-        const admin = getAdmin.value;
-        console.log(`admin ${admin}`)
-    }
-    if (document.querySelector('.educacao') != null) {
-        const getEducacao = document.querySelector('.educacao');
-        const educacao = getEducacao.value;
-        console.log(`educacao ${educacao}`)
-    }
-    if (document.querySelector('.casa') != null) {
-        const getCasa = document.querySelector('.casa');
-        const casa = getCasa.value;
-        console.log(`casa ${casa}`)
-    }
+
     if (document.querySelector('#taxa') != null) {
         const getTaxa = document.querySelector('#taxa');
         const taxa = Number(getTaxa.value);
@@ -104,4 +85,24 @@ function verificaDadosNulos() {
         alert('teste')
     }
 }
+
+function saveService() {
+        if (document.querySelector('#Dia') != null) {
+            const getDia = document.querySelector('#Dia').value;
+            console.log(`Dia ${getDia}`)
+        }
+        if (document.querySelector('#admin') != null) {
+            const getAdmin = document.querySelector('#admin').value;
+            console.log(`admin ${getAdmin}`)
+        }
+        if (document.querySelector('#educacao') != null) {
+            const getEducacao = document.querySelector('#educacao').value;
+            console.log(`educacao ${getEducacao}`)
+        }
+        if (document.querySelector('#casa') != null) {
+            const getCasa = document.querySelector('#casa').value;
+            console.log(`casa ${getCasa}`)
+        }   
+}
+saveService();
 salvaDados();
