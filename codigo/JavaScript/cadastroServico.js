@@ -66,9 +66,7 @@ function salvaDados() {
             }
         }
         console.log(taxa);
-    }
-    
-    
+    }   
 }
 
 function verificaData(){

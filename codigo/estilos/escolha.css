@@ -1,0 +1,59 @@
+header{
+    background-color: #3E6181 ;
+    margin: 0%;
+}
+header>img{
+    width: 5vw;
+    background-color: #6B9DC8;
+}
+p, h3{
+    margin: 0;
+}
+.card{
+    margin: 16px 200px;
+    border-radius: 8px;
+    border-color: #3E6181;
+}
+.user{
+    border-radius: 8px;
+    padding: 0px;
+    padding: 16px;
+    margin: 0px;
+    background-color: #6B9DC8;
+}
+button{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: #6B9DC8;
+    border-radius: 8px;
+    border-color: #3E6181;
+}
+@media screen and (max-width: 1024px) {
+    header>img{
+        width: 15vw;
+        margin: 10px;
+    }
+    .fa-smile-beam{
+        font-size: 90px;
+    }
+    .card{
+        margin: 32px 150px;
+    }
+    h3{
+        font-size: 48px;
+    }
+    p{
+        font-size: 40px;
+    }
+    .fa-user{
+        font-size: 50px;
+        padding-top: 20px;
+    }
+    .turn{
+        font-size: 42px;
+    }
+    button{
+        font-size: 36px;
+    }
+}
