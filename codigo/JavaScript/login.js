@@ -5,7 +5,7 @@ const createUser = (user) => {
             alert("funcionou essa merda");
         })
         .catch(error => {
-            alert("Usuário ou senha inválidos")
+            impedirAvanco();
         });
 };
 
@@ -26,10 +26,6 @@ function saveLogin() {
 }
 
 function impedirAvanco() {
-    const form = document.querySelector('#btnLogin');
-    form.addEventListener('submit', function (e){
-        e.preventDefault();
-        alert("Usuário ou senha inválidos")
-        console.log('Ta FUNCIONANDO')
-    })
+    alert('Usuário ou senha inválidos')
+    return false;
 }
