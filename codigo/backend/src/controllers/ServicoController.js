@@ -1,12 +1,5 @@
 const connection = require('../connection');
 module.exports = {
-    async index(req, res) {
-        connection.query('SELECT * FROM Servico', function(err, rows, fields) {
-          if (err) throw err;
-            console.log('Todos servicos: ', rows);
-            res.send(rows);
-        });
-    },
 
     async store(req, res) {
         console.log(req.body)
@@ -16,7 +9,7 @@ module.exports = {
           req.body.taxaServico,
           req.body.horarioServico,
           req.body.diasServico,
-        ],function(err, rows, filds) {
+        ],function(err, rows, fields) {
           if(err){
             console.log(err);
             return res.json({error: err})
@@ -25,11 +18,13 @@ module.exports = {
         })
      },
     
-    async getOne(req, res) {
-        // função para pegar apenas um usuario
-        connection.query('SELECT * FROM Servico where areaServico = ?', [req.body.cpf], function(err, rows, fields) {
+    async getService(req, res) {
+        // função para pegar todos os serviços disponíveis com aquele
+        connection.query('SELECT * FROM Servico where areaServico = ?', [req.body.areaServico], function(err, rows, fields) {
           if (err) throw err;
-            res.send(rows[0]);
+            if(rows && rows.length){
+              res.send(rows);
+            }
         });
     }
 }

@@ -2,7 +2,7 @@ const createUser = (user) => {
     axios.post('http://localhost:3000/getOneUser', user)
         .then(response => {
             const addedUser = response.data;
-            alert("funcionou essa merda");
+            window.location.href('/index.html');
         })
         .catch(error => alert("Usuário ou senha inválidos"));
 };

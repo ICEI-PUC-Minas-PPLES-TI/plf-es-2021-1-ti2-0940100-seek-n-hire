@@ -20,14 +20,13 @@ create table Endereco(
 	bairro varchar(45) NOT NULL,
 	estado varchar(2) NOT NULL
 );
-create table Servico(
-	idServico int primary key identity NOT NULL,
-	campoServico varchar(45) NOT NULL,
-	areaServico varchar(45) NOT NULL,
-	taxaServico float NOT NULL,
-	horarioServico varchar(45) NOT NULL,
-	diasServico varchar(45) NOT NULL,
-	Usuario_cpf int foreign key references Usuario(cpf) NOT NULL
+create TABLE Servico(
+	idServico INT PRIMARY KEY,
+	campoServico VARCHAR(45) NOT NULL,
+	areaServico VARCHAR(45) NOT NULL,
+	taxaServico FLOAT NOT NULL,
+	horarioServico VARCHAR(45) NOT NULL,
+	diasServico VARCHAR(45) NOT NULL
 );
 create table agendaServico(
 	idAgendaServico int primary key identity NOT NULL,

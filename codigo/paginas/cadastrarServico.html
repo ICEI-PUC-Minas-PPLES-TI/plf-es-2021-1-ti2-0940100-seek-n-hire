@@ -35,30 +35,30 @@
                     <div class="d-flex flex-column opcoes mt-4">
                         <small>Área de atuação</small>
                         <select onchange=" MostraOptions()" id="atuacao" name="natuacao">
-                            <option value="0" selected>Dia a dia</option>
-                            <option value="1">Administração</option>
-                            <option value="2">Educação</option>
-                            <option value="3">Casa</option>
+                            <option value="Dia a dia" selected>Dia a dia</option>
+                            <option value="Administração">Administração</option>
+                            <option value="Educação">Educação</option>
+                            <option value="Casa">Casa</option>
                         </select>
                         <small class="mt-4">Serviço</small>
                         <select class="Dia" id="Dia" name="natuacao">
-                            <option value="0" selected>Faxineiro</option>
-                            <option value="1">Passadeiro</option>
-                            <option value="2">Cuidador de criança</option>
+                            <option value="Faxineiro" selected>Faxineiro</option>
+                            <option value="Passadeiro">Passadeiro</option>
+                            <option value="Cuidador de criança">Cuidador de criança</option>
                         </select>
                         <select class="admin" id="admin" name="natuacao">
-                            <option value="0" selected>Contador</option>
+                            <option value="Contador" selected>Contador</option>
                         </select>
                         <select class="educacao" id="educacao" name="natuacao">
-                            <option value="0" selected>Aula particular fundamental</option>
-                            <option value="1">Aula particular EM</option>
-                            <option value="2">Aula particular faculdade</option>
+                            <option value="Aula particular fundamental" selected>Aula particular fundamental</option>
+                            <option value="Aula particular EM">Aula particular EM</option>
+                            <option value="Aula particular faculdade">Aula particular faculdade</option>
                         </select>
                         <select class="casa" id="casa" name="natuacao">
-                            <option value="0" selected> Formatar PC</option>
-                            <option value="1">Decorador</option>
-                            <option>Eletricista</option>
-                            <option value="3"> Pedreiro</option>
+                            <option value="Formatar PC" selected> Formatar PC</option>
+                            <option value="Decorador">Decorador</option>
+                            <option value="Eletricista">Eletricista</option>
+                            <option value="Pedreiro"> Pedreiro</option>
                         </select>
                     </div>
                 </div>
@@ -85,7 +85,8 @@
     <div class="container-fluid mr-5 ml-2 mt-3">
         <div class="row justify-content-center">
             <div class="col col-xl-4">
-              <a href="./index.html"> <button class="btn btn-primary" type="submit" id="btn" onclick="verificaDadosNulos()">Salvar</button>  </a>
+              <!-- <a href="./index.html">  </a> -->
+              <button class="btn btn-primary" type="submit" id="btn" onclick= verificaDadosNulos()>Salvar</button> 
             </div>
         </div>
     </div>

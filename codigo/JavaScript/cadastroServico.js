@@ -51,15 +51,17 @@ function salvaDados() {
 }
 
 function verificaData(){
-    let salvaData = document.querySelector('#data')
+    let salvaData = document.querySelector('#data');
     salvaData = salvaData.value;
     let data = new Date (salvaData);
     console.log(`DATA ${data.getDate()+1} ${data.getMonth()+1} ${data.getFullYear()}`)
+    return salvaData;
 }
 function verificaHora(){
     let salvaHorario = document.querySelector('#tempo')
     salvaHorario = salvaHorario.value;
     console.log(`HORARIO ${salvaHorario}`);
+    return salvaHorario;
 }
 
 
@@ -74,6 +76,7 @@ function verificaRegiao() {
         }
     console.log(`REGIAO ${regiao}`);
     }
+    return regiao;
 }
 
 
@@ -85,22 +88,22 @@ function verificaDadosNulos() {
 }
 
 function saveService() {
-        if (document.querySelector('#Dia') != null) {
-            const getDia = document.querySelector('#Dia').value;
-            console.log(`Dia ${getDia}`)
-        }
-        if (document.querySelector('#admin') != null) {
-            const getAdmin = document.querySelector('#admin').value;
-            console.log(`admin ${getAdmin}`)
-        }
-        if (document.querySelector('#educacao') != null) {
-            const getEducacao = document.querySelector('#educacao').value;
-            console.log(`educacao ${getEducacao}`)
-        }
-        if (document.querySelector('#casa') != null) {
-            const getCasa = document.querySelector('#casa').value;
-            console.log(`casa ${getCasa}`)
-        }   
+    if (document.querySelector('#Dia') != null) {
+        const getDia = document.querySelector('#Dia').value;
+        console.log(`Dia ${getDia}`)
+    }
+    if (document.querySelector('#admin') != null) {
+        const getAdmin = document.querySelector('#admin').value;
+        console.log(`admin ${getAdmin}`)
+    }
+    if (document.querySelector('#educacao') != null) {
+        const getEducacao = document.querySelector('#educacao').value;
+        console.log(`educacao ${getEducacao}`)
+    }
+    if (document.querySelector('#casa') != null) {
+        const getCasa = document.querySelector('#casa').value;
+        console.log(`casa ${getCasa}`)
+    }   
 }
 saveService();
 salvaDados();
