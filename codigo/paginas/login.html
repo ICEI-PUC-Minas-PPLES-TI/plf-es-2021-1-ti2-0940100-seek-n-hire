@@ -11,6 +11,7 @@
 
 <body>
   <div id="wrapper">
+    <form action="./index.html" method="POST" onsubmit="Login(); return false">
     <div id="login-box" class="auth-box">
       <div class="logo-wrapper"></div>
       <div id="login-form">
@@ -22,10 +23,11 @@
           <label for="password">Senha:</label>
           <input type="password" id="password" name="senha" />
         </div>
-        <button onclick= "Login()" id="btnLogin" class="btn btn-primary" type="submit">Entrar</button>
+        <button  id="btnLogin" class="btn btn-primary" type="submit">Entrar</button>
       </div>
       <a href="./cadastro.html" class="anchor">Registre-se</a>
     </div>
+  </form>
   </div>
   <script src="https://unpkg.com/axios@0.21.1/dist/axios.min.js"></script>
   <script src="../JavaScript/login.js"></script>
