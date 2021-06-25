@@ -1,4 +1,4 @@
-function MostraOptions() {
+function MostraOpcoes() {
     console.log(document.getElementById("atuacao").value);
     if (document.getElementById("atuacao").value == '0') {
         document.getElementById('Dia').style.display = "block";
@@ -25,15 +25,28 @@ function MostraOptions() {
         document.getElementsByClassName('casa')[0].style.display = "block";
     }
 }
+const createService = (service) => {
+    axios.post('http://localhost:3000/insertService', user)
+        .then(response => {
+            const addedService = response.data;
+            console.log(addedService);
+        })
+        .catch(error => alert(error));
+};
+
+function salvarServico() {
+    const servico = {};
+    servico.campoServico = saveOptions();
+    servico.areaServico = saveService();
+    servico.taxaServico = saveTaxa();
+    servico.diasServico = verificaData();
+    servico.horarioServico = verificaHora();
+    servico.cpf = localStorage.getItem("cpf");
+    createService(servico);
+}
 
 
-function salvaDados() {
-    const getAtuacao = document.querySelector('#atuacao');
-    if (getAtuacao != null) {
-        var atuacao = getAtuacao.value;
-        console.log(`atuacao ${atuacao}`)
-    }
-
+function saveTaxa() {
     if (document.querySelector('#taxa') != null) {
         const getTaxa = document.querySelector('#taxa');
         const taxa = Number(getTaxa.value);
@@ -46,19 +59,19 @@ function salvaDados() {
                 return;
             }
         }
-        console.log(taxa);
-    }   
+    }
+    return getTaxa;
 }
 
-function verificaData(){
+function verificaData() {
     let salvaData = document.querySelector('#data');
     salvaData = salvaData.value;
-    let data = new Date (salvaData);
-    console.log(`DATA ${data.getDate()+1} ${data.getMonth()+1} ${data.getFullYear()}`)
+    let data = new Date(salvaData);
+    console.log(`DATA ${data.getDate() + 1} ${data.getMonth() + 1} ${data.getFullYear()}`)
     return salvaData;
 }
-function verificaHora(){
-    let salvaHorario = document.querySelector('#tempo')
+function verificaHora() {
+    let salvaHorario = document.querySelector('#tempo');
     salvaHorario = salvaHorario.value;
     console.log(`HORARIO ${salvaHorario}`);
     return salvaHorario;
@@ -70,40 +83,40 @@ function verificaRegiao() {
     if (document.querySelector("#regiao") != null) {
         const getRegiao = document.querySelector("#regiao");
         const regiao = getRegiao.value;
-        if (typeof(regiao) == Number || !regiao) {
+        if (typeof (regiao) == Number || !regiao) {
             alert('Preencha a região corretamente')
             return;
         }
-    console.log(`REGIAO ${regiao}`);
-    }
-    return regiao;
-}
-
-
-function verificaDadosNulos() {
-    console.log('teste')
-    if (document.querySelector("#taxa").value == null){
-        alert('teste')
+        console.log(`REGIAO ${regiao}`)
     }
 }
+
+// function verificaDadosNulos() {
+//     console.log('teste')
+//     if (document.querySelector("#taxa").value == null) {
+//         alert('teste')
+//     }
+// }
 
 function saveService() {
     if (document.querySelector('#Dia') != null) {
         const getDia = document.querySelector('#Dia').value;
-        console.log(`Dia ${getDia}`)
+        console.log(`Dia ${getDia}`);
     }
     if (document.querySelector('#admin') != null) {
         const getAdmin = document.querySelector('#admin').value;
-        console.log(`admin ${getAdmin}`)
+        console.log(`admin ${getAdmin}`);
     }
     if (document.querySelector('#educacao') != null) {
         const getEducacao = document.querySelector('#educacao').value;
-        console.log(`educacao ${getEducacao}`)
+        console.log(`educacao ${getEducacao}`);
     }
     if (document.querySelector('#casa') != null) {
         const getCasa = document.querySelector('#casa').value;
-        console.log(`casa ${getCasa}`)
-    }   
+        console.log(`casa ${getCasa}`);
+    }
 }
-saveService();
-salvaDados();
+function saveOptions() {
+    const getOption = document.querySelector('#atuacao').value;
+    return getOption;
+}
