@@ -19,7 +19,7 @@
       <div id="login-form" method="POST" action="/">
         <div class="fields-wrapper">
           <label for="name-input">Nome Completo:</label>
-          <input onchange='Validation()' id="name-input" name="name" />
+          <input onchange='Validation()' id="name-input" name="name" required/>
           <div class="invalid-feedback" id="name">
             Insira nome e sobrenome
           </div>
@@ -27,55 +27,55 @@
         <div class="fields-wrapper">
           <div class="field">
             <label for="cpf">CPF</label>
-            <input onchange='Validation()' id="cpf_input" name="cpf" />
+            <input onchange='Validation()' id="cpf_input" name="cpf" required/>
             <div class="invalid-feedback" id="cpf">
               CPF inválido!
             </div>
           </div>
           <div class="field">
             <label for="birthdate">Data de nascimento</label>
-            <input id="birthdate" name="birthdate" />
+            <input id="birthdate" name="birthdate" required/>
           </div>
         </div>
         <div class="fields-wrapper">
           <div class="field">
             <label for="zipcode">CEP</label>
-            <input id="zipcode" name="zipcode" onkeyup="validaCep()" />
+            <input id="zipcode" name="zipcode" onkeyup="validaCep()" required/>
           </div>
           <div class="field">
             <label for="street" disabled>Rua:</label>
-            <input id="street" name="street" />
+            <input id="street" name="street" required/>
           </div>
         </div>
         <div class="fields-wrapper">
           <div class="field">
             <label for="city" disabled>Cidade:</label>
-            <input id="city" name="city" />
+            <input id="city" name="city" required/>
           </div>
           <div class="field">
             <label for="state" disabled>Estado:</label>
-            <input id="state" name="state" />
+            <input id="state" name="state" required/>
           </div>
         </div>
         <div class="fields-wrapper">
           <div class="field">
             <label for="number">Número:</label>
-            <input id="number" name="number" />
+            <input id="number" name="number" required/>
           </div>
           <div class="field">
             <label for="additional-address-info">Complemento</label>
-            <input id="additional-address-info" name="additional-address-info" />
+            <input id="additional-address-info" name="additional-address-info" required/>
           </div>
         </div>
         <div class="fields-wrapper">
           <label for="email">Email:</label>
-          <input id="email" onkeyup="saveEmail()" type="email" name="email" />
+          <input id="email" onkeyup="saveEmail()" type="email" name="email" required/>
           <p id="error-email"></p>
         </div>
         <div class="fields-wrapper">
           <div class="field">
             <label for="password">Senha:</label>
-            <input onchange="Validation()" type="password" id="password_input" name="password" />
+            <input onchange="Validation()" type="password" id="password_input" name="password" required/>
             <div class="invalid-feedback" id="password">
               Senha precisa ter mais de 5 caracteres!
             </div>
@@ -83,13 +83,13 @@
           <div class="field">
             <label for="password-cofirmation">Confirmar senha:</label>
             <input onchange="SenhaIgual()" type="password" id="password_cofirmation_input"
-              name="password-confirmation" />
+              name="password-confirmation" required/>
             <div class="invalid-feedback" id="password-cofirmation">
               As senhas não coincidem!
             </div>
           </div>
         </div>
-        <button onclick="CadastrarUsuario()" class="btn btn-primary" type="submit"> <a id="btna">
+        <button onclick="CadastrarUsuario()" class="btn btn-primary" type="submit"> <a href="./index.html" id="btna">
             Cadastrar </a></button>
         </div>
     </div>

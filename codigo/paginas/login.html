@@ -11,17 +11,17 @@
 
 <body>
   <div id="wrapper">
-    <form action="./index.html" method="POST" onsubmit="Login(); return false">
+    <form action="" method="POST" onsubmit="Login(); return false">
     <div id="login-box" class="auth-box">
       <div class="logo-wrapper"></div>
       <div id="login-form">
         <div>
           <label for="login-input">Login:</label>
-          <input id="login" name="login" />
+          <input id="login" name="login" required/>
         </div>
         <div>
           <label for="password">Senha:</label>
-          <input type="password" id="password" name="senha" />
+          <input type="password" id="password" name="senha" required/>
         </div>
         <button id="btnLogin" class="btn btn-primary" type="submit">Entrar</button>
       </div>
