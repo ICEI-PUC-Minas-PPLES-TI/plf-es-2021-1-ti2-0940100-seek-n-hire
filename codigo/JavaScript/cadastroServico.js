@@ -26,10 +26,10 @@ function MostraOpcoes() {
     }
 }
 const createService = (service) => {
-    axios.post('http://localhost:3000/insertService', user)
+    axios.post('http://localhost:3000/insertService', service)
         .then(response => {
             const addedService = response.data;
-            console.log(addedService);
+            window.location.href = "index.html";
         })
         .catch(error => alert(error));
 };
@@ -59,8 +59,8 @@ function saveTaxa() {
                 return;
             }
         }
+        return getTaxa;
     }
-    return getTaxa;
 }
 
 function verificaData() {
