@@ -4,8 +4,11 @@ const createUser = (user) => {
             const addedUser = response.data;
             alert("funcionou essa merda");
         })
-        .catch(error => alert("Usuário ou senha inválidos"));
+        .catch(error => {
+            alert("Usuário ou senha inválidos")
+        });
 };
+
 function Login(){
     const findUser = {};
     findUser.senha = saveSenha();
@@ -20,4 +23,13 @@ function saveSenha(){
 function saveLogin() {
     const login = document.querySelector('#login').value;
     return login;
+}
+
+function impedirAvanco() {
+    const form = document.querySelector('#btnLogin');
+    form.addEventListener('submit', function (e){
+        e.preventDefault();
+        alert("Usuário ou senha inválidos")
+        console.log('Ta FUNCIONANDO')
+    })
 }
