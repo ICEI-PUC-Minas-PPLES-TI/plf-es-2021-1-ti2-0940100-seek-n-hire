@@ -7,7 +7,6 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/818e219f60.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../estilos/cadastrarServico.css">
-    <script type="text/javascript" src="../JavaScript/cadastroServico.js"></script>
     <title>Seek n Hire</title>
 </head>
 
@@ -29,14 +28,14 @@
                 <hr>
                 <div class="d-flex flex-column regiao">
                     <small>Taxa(sem deslocamento)</small>
-                    <input inputmode="text" type="text" id="taxa" name="taxa" onkeyup="salvaDados()" required>
+                    <input inputmode="text" type="text" id="taxa" name="taxa" required>
                     <small class="mt-4">Região de atuação</small>
-                    <input inputmode="text" type="text" id="regiao" name="regiao" onkeyup="verificaRegiao()" required>
+                    <input inputmode="text" type="text" id="regiao" name="regiao" required>
                 </div>
                 <div>
                     <div class="d-flex flex-column opcoes mt-4">
                         <small>Área de atuação</small>
-                        <select onchange=" MostraOptions()" id="atuacao" name="natuacao">
+                        <select onchange="MostraOpcoes()" id="atuacao" name="natuacao">
                             <option value="0" selected>Dia a dia</option>
                             <option value="1">Administração</option>
                             <option value="2">Educação</option>
@@ -44,23 +43,23 @@
                         </select>
                         <small class="mt-4">Serviço</small>
                         <select class="Dia" id="Dia" name="natuacao">
-                            <option value="0" selected>Faxineiro</option>
-                            <option value="1">Passadeiro</option>
-                            <option value="2">Cuidador de criança</option>
+                            <option value="Faxineiro" selected>Faxineiro</option>
+                            <option value="Passadeiro">Passadeiro</option>
+                            <option value="Cuidador de criança">Cuidador de criança</option>
                         </select>
                         <select class="admin" id="admin" name="natuacao">
-                            <option value="0" selected>Contador</option>
+                            <option value="Contador" selected>Contador</option>
                         </select>
                         <select class="educacao" id="educacao" name="natuacao">
-                            <option value="0" selected>Aula particular fundamental</option>
-                            <option value="1">Aula particular EM</option>
-                            <option value="2">Aula particular faculdade</option>
+                            <option value="Aula particular fundamental" selected>Aula particular fundamental</option>
+                            <option value="Aula particular EM">Aula particular EM</option>
+                            <option value="Aula particular faculdade">Aula particular faculdade</option>
                         </select>
                         <select class="casa" id="casa" name="natuacao">
-                            <option value="0" selected> Formatar PC</option>
-                            <option value="1">Decorador</option>
-                            <option>Eletricista</option>
-                            <option value="3"> Pedreiro</option>
+                            <option value="Formatar PC" selected> Formatar PC</option>
+                            <option value="Decorador">Decorador</option>
+                            <option value="Eletricista">Eletricista</option>
+                            <option value="Pedreiro"> Pedreiro</option>
                         </select>
                     </div>
                 </div>
@@ -88,11 +87,13 @@
     <div class="container-fluid mr-5 ml-2 mt-3">
         <div class="row justify-content-center">
             <div class="col col-xl-4">
-                 <button class="btn btn-primary" type="submit" id="btn">Salvar</button>
+                <!-- <a href="./index.html">  </a> -->
+                <button class="btn btn-primary" type="submit" id="btn"
+                    onclick="salvarServico()">Salvar</button>
             </div>
         </div>
     </div>
-    </form>
+    <script type="text/javascript" src="../JavaScript/cadastroServico.js"></script>
 </body>
 
 </html>

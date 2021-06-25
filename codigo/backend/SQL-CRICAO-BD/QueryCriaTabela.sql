@@ -5,6 +5,16 @@ create table Usuario(
 	senha varchar(100) NOT NULL,
 	datNasc DATE NOT NULL
 );
+create TABLE Servico(
+	cpf int foreign key,
+	idServico INT PRIMARY KEY,
+	campoServico VARCHAR(45) NOT NULL,
+	areaServico VARCHAR(45) NOT NULL,
+	taxaServico FLOAT NOT NULL,
+	horarioServico VARCHAR(45) NOT NULL,
+	diasServico VARCHAR(45) NOT NULL,
+	FOREIGN KEY (cpf) REFERENCES Usuario(cpf)
+);
 create table Cartao(
 	usuario_cpf int foreign key references Usuario(cpf) NOT NULL,
 	nomeTitularCartao varchar(45) NOT NULL,
@@ -19,15 +29,6 @@ create table Endereco(
 	cidade varchar(45) NOT NULL,
 	bairro varchar(45) NOT NULL,
 	estado varchar(2) NOT NULL
-);
-create table Servico(
-	idServico int primary key identity NOT NULL,
-	campoServico varchar(45) NOT NULL,
-	areaServico varchar(45) NOT NULL,
-	taxaServico float NOT NULL,
-	horarioServico varchar(45) NOT NULL,
-	diasServico varchar(45) NOT NULL,
-	Usuario_cpf int foreign key references Usuario(cpf) NOT NULL
 );
 create table agendaServico(
 	idAgendaServico int primary key identity NOT NULL,

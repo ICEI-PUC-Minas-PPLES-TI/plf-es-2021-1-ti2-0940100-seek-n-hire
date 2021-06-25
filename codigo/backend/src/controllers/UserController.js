@@ -29,6 +29,7 @@ module.exports = {
     async getOne(req, res) {
         // função para pegar apenas um usuario
         connection.query('SELECT * FROM Usuario where login = ? and senha = ?', [req.body.login, req.body.senha], function(err, rows, fields) {
+          console.log(rows)
           if (err) throw err;
           if (!rows.length) {
             res.send(401, "Usuário invalido");
