@@ -1,4 +1,5 @@
 const connection = require('../connection');
+const path = require('path');
 module.exports = {
     async index(req, res) {
         connection.query('SELECT * FROM Usuario', function(err, rows, fields) {
@@ -27,9 +28,12 @@ module.exports = {
     
     async getOne(req, res) {
         // função para pegar apenas um usuario
-        connection.query('SELECT * FROM Usuario where login = ?', [req.body.cpf], function(err, rows, fields) {
+        connection.query('SELECT * FROM Usuario where login = ? and senha = ?', [req.body.login, req.body.senha], function(err, rows, fields) {
           if (err) throw err;
+          if (!rows.length) {
+            res.send(401, "Usuário invalido");
+          }
             res.send(rows[0]);
         });
-    }
+    },
 }

@@ -16,7 +16,7 @@
   <div id="wrapper">
     <div id="register-box" class="auth-box">
       <div class="logo-wrapper blue-filtered-logo"></div>
-      <form id="login-form" method="POST" action="/">
+      <div id="login-form" method="POST" action="/">
         <div class="fields-wrapper">
           <label for="name-input">Nome Completo:</label>
           <input onchange='Validation()' id="name-input" name="name" />
@@ -27,7 +27,7 @@
         <div class="fields-wrapper">
           <div class="field">
             <label for="cpf">CPF</label>
-            <input onchange='Validation()' id="cpf-input" name="cpf" />
+            <input onchange='Validation()' id="cpf_input" name="cpf" />
             <div class="invalid-feedback" id="cpf">
               CPF inválido!
             </div>
@@ -40,7 +40,7 @@
         <div class="fields-wrapper">
           <div class="field">
             <label for="zipcode">CEP</label>
-            <input id="zipcode" name="zipcode"  onkeyup="validaCep()"/>
+            <input id="zipcode" name="zipcode" onkeyup="validaCep()" />
           </div>
           <div class="field">
             <label for="street" disabled>Rua:</label>
@@ -75,24 +75,27 @@
         <div class="fields-wrapper">
           <div class="field">
             <label for="password">Senha:</label>
-            <input onchange="Validation()" type="password" id="password_input" name="password"/>
+            <input onchange="Validation()" type="password" id="password_input" name="password" />
             <div class="invalid-feedback" id="password">
               Senha precisa ter mais de 5 caracteres!
             </div>
           </div>
           <div class="field">
             <label for="password-cofirmation">Confirmar senha:</label>
-            <input onchange="SenhaIgual()" type="password" id="password_cofirmation_input" name="password-confirmation" />
+            <input onchange="SenhaIgual()" type="password" id="password_cofirmation_input"
+              name="password-confirmation" />
             <div class="invalid-feedback" id="password-cofirmation">
               As senhas não coincidem!
             </div>
-          </div> 
+          </div>
         </div>
-        <button onclick="saveEmail()" onclick="saveBirthdate()" onclick="saveName()" onclick="saveAdditionalAdressInfo()" class="btn btn-primary" type="submit"> <a id="btna" href="./index.html"> Entrar </a></button>
-      </form>
-      <a href="/codigo/paginas/login.html" class="anchor">Registre-se</a>
+        <button onclick="CadastrarUsuario()" class="btn btn-primary" type="submit"> <a id="btna">
+            Cadastrar </a></button>
+        </div>
     </div>
   </div>
+  <script src="https://unpkg.com/axios@0.21.1/dist/axios.min.js"></script>
+  <script src="cadastro.js"></script>
 </body>
 
 </html>

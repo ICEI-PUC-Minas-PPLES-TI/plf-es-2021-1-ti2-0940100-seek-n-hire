@@ -89,28 +89,48 @@ function validateCPF(cpf){
             return;
         }
 }   
-
+const createUser = (user) => {
+    axios.post('http://localhost:3000/insertUser', user)
+        .then(response => {
+            const addedUser = response.data;
+            console.log(`POST: user is added`, addedUser);
+            // append to DOM
+            // appendToDOM([addedUser]);
+        })
+        .catch(error => console.error(error));
+};
+function CadastrarUsuario(){
+    const user = {};
+    user.name = saveName();
+    user.login = saveEmail(); 
+    user.cpf = saveCpf();
+    user.datNasc = saveBirthdate();
+    user.senha = saveSenha();
+    createUser(user);
+    console.log(user);
+}
 function saveName (){
     const name = document.querySelector('#name-input').value;
-    console.log(`nome: ${name}`);
     return name;
 }
 
 function saveBirthdate() {
     const birthdate = document.querySelector('#birthdate').value;  
-    console.log(`data: ${date}`)
     return birthdate;
 }
 
-function saveAdditionalAdressInfo() {
-    const additionalAdressInfo = document.querySelector('#additional-address-info').value;  
-    console.log(`complemento: ${additionalAdressInfo}`)
-    return additionalAdressInfo;
+function saveSenha(){
+    const senha = document.querySelector('#password_input').value;
+    return senha;
 }
 
 function saveEmail() {
     const email = document.querySelector('#email').value;
-    console.log(`email: ${email}`);
     return email;
+}
+
+function saveCpf() {
+    const cpf = document.querySelector('#cpf_input').value;
+    return cpf;
 }
 
