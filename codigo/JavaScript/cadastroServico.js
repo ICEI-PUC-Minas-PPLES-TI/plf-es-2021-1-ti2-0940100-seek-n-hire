@@ -78,9 +78,21 @@ function verificaRegiao() {
 
 
 function verificaDadosNulos() {
-    console.log('teste')
     if (document.querySelector("#taxa").value == null){
-        alert('teste')
+        alert('Defina a taxa')
+        return false;
+    }
+    if (document.querySelector("#regiao").value == null){
+        alert('Defina a região de atuação')
+        return false;
+    }
+    if (document.querySelector('#data').value == null){
+        alert('Defina a data')
+        return false
+    }
+    if (document.querySelector('#tempo').value == null){
+        alert('Defina o horário')
+        return false
     }
 }
 
@@ -102,5 +114,7 @@ function saveService() {
             console.log(`casa ${getCasa}`)
         }   
 }
+
+
 saveService();
 salvaDados();
