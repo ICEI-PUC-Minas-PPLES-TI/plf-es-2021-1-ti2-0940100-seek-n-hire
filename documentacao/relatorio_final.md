@@ -284,48 +284,32 @@ As tecnológias utilizadas pelo grupo nesse projeto serão Javascript para comun
 
 ## 7.Sistema desenvolvido
 
-Faça aqui uma breve descrição do software e coloque as principais telas com uma explicação de como usar cada uma.
+Tentamos deixar o sistema mais simples possível, para que o usuário não tenha dificuldade em utilizar e nem precise ficar mudando muitas telas para navegar. Com isso produzimos, além das telas de cadastro de usuario, login e cadastro de serviço, uma tela inicial intuitiva, tela para solitar um serviço, pagamento e envio de nota ao prestador de serviço.  
 
 ## 8. Avaliação
 
-Faça aqui sobre a avaliação do software. Indique se ele atendeu as expectativas e ele é viável. Para não ficar subjetivo, o ideal é fazer um questionário e pedir ao usuário do processo que faça a avaliação
+O software é sim viável por se tratar de um portal em que os serviços em si são realizados pelos proprios usuarios e o sistema atua somente como o intermediador entre eles, fazendo com que a troca de informação e serviços ocorra de uma maneira mais prática e segura para ambos os lados, porém não atendeu nossas expectatívas uma vez que não concluímos todos os objetivos propostos para o projeto.
 
 ## 9. Conclusão
 
-Apresente aqui a conclusão do seu trabalho. Discussão dos resultados obtidos no trabalho, onde se verifica as observações pessoais de cada aluno. Poderá também apresentar sugestões de novas linhas de estudo.
-
-# REFERÊNCIAS
-
-Como um projeto de software não requer revisão bibliográfica, a inclusão das referências não é obrigatória. No entanto, caso você deseje incluir referências relacionadas às tecnologias, padrões, ou metodologias que serão usadas no seu trabalho, relacione-as de acordo com a ABNT.
-
-Verifique no link abaixo como devem ser as referências no padrão ABNT:
-
-http://www.pucminas.br/imagedb/documento/DOC\_DSC\_NOME\_ARQUI20160217102425.pdf
-
-
-**[1.1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
-
-**[1.2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
-
-**[1.3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
-
-**[1.4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
-
-**[1.5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
-
-
-
+O trabalho nos deu uma boa ideia de como é trabalhar como uma "Fábrica de Software", indo desde um simples ideia, passando pelo aprimoramento dela até chegar ao ponto de colocarmos a mão na massa e produzir de fato do zero um sistema com banco de dados próprio. Foi um ótima experiência já que com ela aprendemos que o entrosamento com o grupo faz total diferença no resultado final do projeto e que o desfalque também tras um grande peso. Infelizmente não conseguimos colocar o sistema funcionando 100% como gostariamos, precisando remover processos que seriam importantes já que aprender a mexer com sistemas e tecnologias novas foi um parte complicada.
+Cada integrante teve um papel importante que contribuiu para todo o grupo:
+André Cota: Organização de tarefas
+Anna Laura: Front End
+Frederico Martins: Separar ideias
+Renan Cleyson: BD
+Vinicius Levi: Back End
 # APÊNDICES
 
 **Colocar link:**
 
-Do código;
+Código: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2021-1-ti2-0940100-seek-n-hire/tree/master/codigo
 
-Dos artefatos;
+Artefatos: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2021-1-ti2-0940100-seek-n-hire/tree/master/artefatos
 
-Da apresentação final;
+Apresentação final: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2021-1-ti2-0940100-seek-n-hire/blob/master/documentacao/Apresentação%20Final.pptx
 
-Do vídeo de apresentação.
+Vídeo de apresentação: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2021-1-ti2-0940100-seek-n-hire/blob/master/documentacao/Video_Apresentacao.mkv
 
 
 
