@@ -4,8 +4,11 @@ const createUser = (user) => {
             const addedUser = response.data;
             window.location.href('/index.html');
         })
-        .catch(error => alert("Usuário ou senha inválidos"));
+        .catch(error => {
+            impedirAvanco();
+        });
 };
+
 function Login(){
     const findUser = {};
     findUser.senha = saveSenha();
@@ -20,4 +23,9 @@ function saveSenha(){
 function saveLogin() {
     const login = document.querySelector('#login').value;
     return login;
+}
+
+function impedirAvanco() {
+    alert('Usuário ou senha inválidos')
+    return false;
 }
