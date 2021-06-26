@@ -13,3 +13,6 @@ function mostrar(){
         }
     }
 }
+function Avancar(){
+    window.location.href = "avaliacao.html";
+}

@@ -1,11 +1,6 @@
-const Sequelize = require('sequelize')
-const sequelize = new Sequelize('QueryCriaTabela.sql', 'esnoite', 'seeknhire', {
-    host: "localhost",
-    dialect: "mssql"
-})
-
-sequelize.authenticate().then(() => {
-    console.log("ta funfando")
-}).catch((erro) =>{
-    console.log("faio " + erro)
-})
+function getService(){
+    let nome = document.querySelector('#service');
+    nome = nome.innerHTML;
+    localStorage.setItem("name", nome);
+    window.location.href = "escolha.html";
+}

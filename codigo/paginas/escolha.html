@@ -13,29 +13,46 @@
     </title>
 </head>
 
-<body>
+<body onload="create()">
     <header class="d-flex align-items-center">
-        <img class="p-2 ms-4 bd-highlight" src="/codigo/src/imagens/logo/logopreto.png">
+        <img class="p-2 ms-4 bd-highlight" src="../src/imagens/logo/logopreto.png">
         <div class="ms-auto me-5 p-2 bd-highligh">
             <div class="fa-3x">
                 <a href="./login.html"> <i class="far fa-smile-beam"></i> </a>
             </div>
         </div>
     </header>
-    <div class="card d-flex flex-row justify-content-between">
-            <div class="d-flex">
-                <div class="fa-2x user">
-                    <i class="far fa-user"></i>
-                </div>
-                <div class="m-2">
-                    <h3>Nome do Serviço</h3>
-                    <p>Nome da Pessoa</p>
-                </div>                                    
+    <div class="card d-flex flex-row justify-content-between" id="cardContainer">
+        <div class="d-flex">
+            <div class="fa-2x user">
+                <i class="far fa-user"></i>
             </div>
-            <div class="price d-flex flex-column justify-content-end">
-                <h3>30,90</h3>
-                <button> + </button>
-            </div>        
-    </div>     
+            <div class="m-2">
+                <h3>Faxineiro</h3>
+                <p>Teste - anna.reis</p>
+            </div>                                    
+        </div>
+        <div class="price d-flex flex-column justify-content-end">
+            <h3>38.90</h3>
+            <button onclick="Avancar()">+</button>
+        </div>     
+    </div> 
+    <div class="card d-flex flex-row justify-content-between" id="cardContainer">
+        <div class="d-flex">
+            <div class="fa-2x user">
+                <i class="far fa-user"></i>
+            </div>
+            <div class="m-2">
+                <h3>Contador</h3>
+                <p>Anna Dornelas</p>
+            </div>                                    
+        </div>
+        <div class="price d-flex flex-column justify-content-end">
+            <h3>47.90</h3>
+            <button onclick="Avancar()">+</button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios@0.21.1/dist/axios.min.js"></script>
+    <script type="text/javascript" src="../JavaScript/escolha.js"></script> 
 </body>
 </html>
