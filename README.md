@@ -18,14 +18,12 @@ Nosso projeto ajudará dois tipos de publico, pessoas que desejam procurar servi
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Para executar o software é necessário instalar o docker, workbench, node com sequelizer e colocar esses comandos:
 
-## Histórico de versões
+- docker pull mysql
+- docker run --name trabalho_ana_container -e MYSQL_ALLOW_EMPTY_PASSWORD=true -e MYSQL_DATABASE=trabalho  -p 3306:3306 -d mysql
+- cd backend
+- npm install
+- npm run dev
 
-* 0.1.1
-    * CHANGE: Atualização das documentacoes. Código permaneceu inalterado.
-* 0.1.0
-    * Implementação da funcionalidade X pertencente ao processo P.
-* 0.0.1
-    * Trabalhando na modelagem do processo de negócios.
 
