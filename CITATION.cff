@@ -1,0 +1,33 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: Seek n' Hire
+authors:
+  - family-names: Cota Guimarães
+    given-names: Andre 
+  - family-names: Reis Dornelas
+    given-names: Anna Laura 
+  - family-names: Martins Rodrigues
+    given-names: Frederico 
+  - family-names: Fagundes Pereira
+    given-names: Renan Cleyson 
+  - family-names: Viana de Oliveira
+    given-names: Vinicius Levi  
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vander Ramos
+    given-names: Claudiney 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Bastos De Paula
+    given-names: Hugo 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Christina de Paiva Carvalho
+    given-names: Joyce
+keywords:
+  - Serviços
+  - Oferta
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2021-1-ti2-0940100-seek-n-hire
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2021-06-20
